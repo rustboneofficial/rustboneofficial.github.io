@@ -70,6 +70,33 @@
     "content": "Advanced climate control system integrated into the exoskeleton's life support matrix. Maintains optimal body temperature in extreme environmental conditions through a combination of active cooling and heating systems.\n\nSystems:\n- Liquid cooling circuit with heat exchangers\n- Emergency heating elements\n- Insulation layer management\n- Automated temperature monitoring\n- Predictive thermal load balancing\n\nOperating Range: -80°C to +200°C ambient temperature",
     "imageUrl": "assets/images/lore/thermal_regulation.jpg",
     "isUnlocked": false,
+    "unlockTrigger": "chapter_02"
+  },
+  {
+    "id": "lore-rustbone-prison",
+    "keyword": "prisión",
+    "title": "La Esfera-Prisión Rustbone",
+    "category": "location",
+    "content": "Rustbone es una esfera hueca de 80 kilómetros de diámetro que flota en el espacio profundo. En su interior, la humanidad vive confinada en 20 anillos industriales organizados en 5 zonas verticales. La estructura fue construida por los Custodios hace más de 1000 años como prisión para la humanidad, acusada de ser una civilización 'Devoradora de Mundos'.",
+    "isUnlocked": false,
+    "unlockTrigger": "prologue"
+  },
+  {
+    "id": "lore-horno",
+    "keyword": "Horno",
+    "title": "El Horno - Generador de Gravedad",
+    "category": "technology",
+    "content": "El Horno es el núcleo de Rustbone, una cámara de contención que alberga un fragmento de una Entidad Cósmica aprisionada. Esta entidad genera la gravedad artificial que mantiene a los 38 millones de habitantes pegados a la superficie interior de la esfera. El Horno emite radiación constante y calor extremo.",
+    "isUnlocked": false,
+    "unlockTrigger": "prologue"
+  },
+  {
+    "id": "lore-frecuencia",
+    "keyword": "Frecuencia",
+    "title": "La Frecuencia - Poder Biofísico",
+    "category": "technology",
+    "content": "La Frecuencia es la capacidad de manipular materia mediante vibración celular resonante. No es magia, sino un fenómeno biofísico descubierto accidentalmente. Los usuarios pueden mover objetos, alterar su densidad o incluso manipular el metal oxidado. Sin embargo, su uso causa calcificación progresiva del cuerpo.",
+    "isUnlocked": false,
     "unlockTrigger": "chapter_01"
   }
 ]
