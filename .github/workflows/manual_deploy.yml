@@ -25,26 +25,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
-      - name: Checkout rustbone-universe repo
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          repository: rustboneofficial/rustbone-universe
-          path: rustbone-universe
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          cache: 'npm'
-          cache-dependency-path: rustbone-universe/web/package-lock.json
-
-      - name: Install dependencies
-        working-directory: rustbone-universe/web
-        run: npm ci
-
-      - name: Build Angular app
-        working-directory: rustbone-universe/web
-        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -52,7 +34,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'rustbone-universe/web/dist/rustbone-universe/browser'
+          path: '.'
 
       - name: Deploy to GitHub Pages
         id: deployment
