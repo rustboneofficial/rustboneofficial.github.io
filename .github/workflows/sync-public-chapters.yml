@@ -1,0 +1,68 @@
+name: Sync Public Chapters
+
+on:
+  repository_dispatch:
+    types: [sync-public-chapters]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout GitHub Pages repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Fetch public-chapters.json from narrative repository
+        run: |
+          curl -H "Authorization: token ${{ secrets.NARRATIVE_READ_TOKEN }}" \
+               -H "Accept: application/vnd.github.v3.raw" \
+               -o public-chapters.json \
+               https://api.github.com/repos/rustboneofficial/narrative/contents/public-chapters.json
+          
+          if [ ! -f public-chapters.json ]; then
+            echo "❌ Error: Failed to fetch public-chapters.json from narrative repository"
+            exit 1
+          fi
+          
+          echo "✅ Downloaded public-chapters.json from narrative repository"
+          cat public-chapters.json
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add public-chapters.json
+          
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes detected in public-chapters.json"
+          else
+            git commit -m "Sync public-chapters.json from narrative repository"
+            git push
+            echo "✅ Changes committed and pushed"
+          fi
+
+      - name: Trigger manual-deploy workflow
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/rustboneofficial/rustboneofficial.github.io/actions/workflows/manual-deploy.yml/dispatches \
+            -d '{"ref":"main"}'
+          
+          echo "✅ Triggered manual-deploy.yml workflow"
+
+      - name: Summary
+        run: |
+          echo "## 🔄 Public Chapters Sync Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Source:** narrative repository" >> $GITHUB_STEP_SUMMARY
+          echo "**Target:** rustboneofficial.github.io" >> $GITHUB_STEP_SUMMARY
+          echo "**Status:** ✅ Synced" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Next: Deployment to GitHub Pages triggered" >> $GITHUB_STEP_SUMMARY
