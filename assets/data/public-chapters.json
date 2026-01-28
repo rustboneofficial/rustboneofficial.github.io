@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-01-28T00:00:00Z",
+  "publicChapters": [
+    {
+      "id": "chapter-01",
+      "file": "chapters/chapter-01.json",
+      "releaseDate": "2026-01-26T00:00:00Z",
+      "checksum": "sha256:placeholder",
+      "size": 45000,
+      "isNew": false
+    }
+  ],
+  "notifications": {
+    "enabled": true,
+    "latestChapter": "chapter-01",
+    "message": "Chapter 1: El Despertar del Hierro is now available!"
+  }
+}
