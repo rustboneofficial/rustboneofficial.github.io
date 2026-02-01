@@ -77,25 +77,128 @@
     "keyword": "prisión",
     "title": "La Esfera-Prisión Rustbone",
     "category": "location",
-    "content": "Rustbone es una esfera hueca de 80 kilómetros de diámetro que flota en el espacio profundo. En su interior, la humanidad vive confinada en 20 anillos industriales organizados en 5 zonas verticales. La estructura fue construida por los Custodios hace más de 1000 años como prisión para la humanidad, acusada de ser una civilización 'Devoradora de Mundos'.",
+    "content": "Rustbone es una esfera hueca de 80 kilómetros de diámetro que flota en el espacio profundo. En su interior, 38 millones de humanos viven confinados en múltiples anillos industriales organizados en 5 zonas verticales según estatus social y condiciones ambientales.\n\nLa estructura fue construida por los Custodios hace más de 1000 años como prisión para la humanidad, acusada de ser una civilización 'Devoradora de Mundos'. Los 16 Rayos-Conductos conectan los anillos como radios de una rueda, permitiendo el tránsito del Tren Gusano mediante sistemas giroscópicos.\n\nEstructura:\n- Diámetro: 80 km\n- Población: 38 millones\n- Zonas: 5 (1=infierno industrial, 5=paraíso aristocrático)\n- Transporte: Tren Gusano a través de Rayos-Conductos\n- Iluminación: Desde el núcleo hacia fuera (mundo invertido)",
+    "imageUrl": "assets/images/lore/rustbone_sphere.jpg",
     "isUnlocked": false,
     "unlockTrigger": "prologue"
   },
   {
     "id": "lore-horno",
     "keyword": "Horno",
-    "title": "El Horno - Generador de Gravedad",
+    "title": "El Horno - Núcleo de la Esfera",
     "category": "technology",
-    "content": "El Horno es el núcleo de Rustbone, una cámara de contención que alberga un fragmento de una Entidad Cósmica aprisionada. Esta entidad genera la gravedad artificial que mantiene a los 38 millones de habitantes pegados a la superficie interior de la esfera. El Horno emite radiación constante y calor extremo.",
+    "content": "El Horno es el núcleo central de Rustbone, una cámara de contención que alberga un fragmento de una Entidad Cósmica aprisionada. Esta entidad genera la gravedad artificial mediante un campo gravitatorio que alcanza 1.5G en la Zona 1.\n\nEl Horno emite el 'Latido': una vibración infrasónica de 40 Hz que ocurre cada 2 segundos exactos. Esta pulsación se siente en los huesos, dientes y caja torácica de todos los habitantes. El silencio absoluto del Latido significa muerte inminente.\n\nCaracterísticas:\n- Frecuencia: 40 Hz infrasónico\n- Intervalo: Cada 2 segundos\n- Temperatura irradiada: 45°C en Zona 1\n- Nivel sonoro: 95 decibelios constantes\n- Efecto: Vibración ósea permanente\n\nLa luz naranja del Horno ilumina la esfera desde abajo, creando un mundo invertido donde las sombras se proyectan hacia arriba.",
+    "imageUrl": "assets/images/lore/el_horno.jpg",
     "isUnlocked": false,
     "unlockTrigger": "prologue"
   },
   {
     "id": "lore-frecuencia",
     "keyword": "Frecuencia",
-    "title": "La Frecuencia - Poder Biofísico",
+    "title": "La Frecuencia - Manipulación de la Materia",
     "category": "technology",
-    "content": "La Frecuencia es la capacidad de manipular materia mediante vibración celular resonante. No es magia, sino un fenómeno biofísico descubierto accidentalmente. Los usuarios pueden mover objetos, alterar su densidad o incluso manipular el metal oxidado. Sin embargo, su uso causa calcificación progresiva del cuerpo.",
+    "content": "La Frecuencia es la capacidad de manipular materia mediante vibración celular resonante a 110 Hz, la frecuencia de resonancia molecular. No es magia, sino un fenómeno biofísico que permite excitar células hasta generar calor extremo o alterar la densidad material.\n\nZian Vosh puede calentar su brazo volcánico hasta 1200°C, suficiente para fundir acero como si fuera cera. La manipulación requiere concentración extrema y causa dolor agonizante.\n\nCostos:\n- Calcificación progresiva: el tejido vivo se convierte en piedra\n- Fase 1: Pérdida de sensibilidad, piel grisácea\n- Fases avanzadas: Muerte por petrificación completa\n- Dolor extremo durante el uso\n- Quemaduras internas en puntos de contacto nervioso\n\nEl Almirante Kross paga 1,000 créditos por capturar usuarios de la Frecuencia para experimentación en la Zona 4.",
+    "imageUrl": "assets/images/lore/la_frecuencia.jpg",
+    "isUnlocked": false,
+    "unlockTrigger": "chapter_01"
+  },
+  {
+    "id": "lore-zona-1",
+    "keyword": "Zona 1",
+    "title": "Zona 1 - El Crisol",
+    "category": "location",
+    "content": "La Zona 1, conocida como 'El Crisol', es el nivel más bajo y brutal de Rustbone. Es el infierno industrial donde los trabajadores sufren condiciones extremas para mantener funcionando el núcleo de la esfera.\n\nCondiciones Ambientales:\n- Gravedad: 1.5G (50% más que Tierra)\n- Presión atmosférica: 2.0 atmósferas\n- Temperatura: 45°C constante\n- Humedad: Vapor industrial corrosivo\n- Iluminación: Naranja desde el Horno (abajo)\n- Nivel sonoro: 95 decibelios continuos\n\nEfectos en habitantes:\n- Huesos 30% más densos (adaptación generacional)\n- Músculos compactos como cables de acero\n- Piel curtida por calor y químicos\n- Calcificación Fase 1 común en ancianos\n- Esperanza de vida: 45 años\n\nLa paleta de color es una dictadura de naranja incandescente, rojo óxido y negro carbón. El aire es denso, amargo, reciclado mil veces y cargado de partículas metálicas.",
+    "imageUrl": "assets/images/lore/zona_1_crisol.jpg",
+    "isUnlocked": false,
+    "unlockTrigger": "chapter_01"
+  },
+  {
+    "id": "lore-incidente-k9",
+    "keyword": "K-9",
+    "title": "Incidente K-9",
+    "category": "event",
+    "content": "El Incidente K-9 fue un desastre industrial ocurrido hace 5 años en el sector K-9 de la Zona 1. Un módulo de carga se desestabilizó y colapsó sobre el área de trabajo, matando a 47 trabajadores incluido Nilo Vosh, hermano menor de Zian.\n\nCausas (oficiales):\n- Fallo estructural por corrosión\n- Error humano en mantenimiento\n- Sobrecarga de peso en pasarelas\n\nConsecuencias:\n- Zian perdió su brazo derecho bajo una viga\n- Su brazo protésico mutó por despertar de la Frecuencia\n- Ahora es una extremidad de magma volcánico\n- Zian carga la urna de aluminio con las cenizas de Nilo\n- Promesa: llevar a Nilo 'al cielo' (Zona 5)\n\nCausas (rumores):\n- Sabotaje del Sínodo\n- Experimento fallido con la Frecuencia\n- Despertar accidental de la Entidad del Horno",
+    "imageUrl": "assets/images/lore/incidente_k9.jpg",
+    "isUnlocked": false,
+    "unlockTrigger": "chapter_01"
+  },
+  {
+    "id": "lore-calcificacion",
+    "keyword": "Calcificación",
+    "title": "Calcificación - Petrificación Viva",
+    "category": "medical",
+    "content": "La Calcificación es un proceso degenerativo causado por el uso de la Frecuencia. El tejido vivo se transforma gradualmente en piedra inerte, comenzando por las extremidades.\n\nFases:\n- Fase 1: Piel grisácea, pérdida de sensibilidad táctil, dureza al tacto\n- Fase 2: Rigidez articular, peso aumentado, dolor crónico\n- Fase 3: Petrificación de órganos internos\n- Fase 4: Muerte por fallo sistémico\n\nSíntomas:\n- Dedos grises y duros\n- Frío punzante en áreas afectadas\n- Pérdida progresiva de movilidad\n- Incremento de densidad corporal\n\nNo existe cura conocida. Solo ralentizar el proceso evitando usar la Frecuencia. Cada uso acelera la progresión. Zian ya presenta Fase 1 en los dedos de su mano izquierda.",
+    "imageUrl": "assets/images/lore/calcificacion.jpg",
+    "isUnlocked": false,
+    "unlockTrigger": "chapter_01"
+  },
+  {
+    "id": "lore-barosis",
+    "keyword": "Barosis",
+    "title": "Barosis - Enfermedad por Presión",
+    "category": "medical",
+    "content": "La Barosis es una enfermedad mortal que ocurre cuando habitantes de zonas de baja gravedad (1.0G) descienden a zonas de alta presión atmosférica y gravitatoria (1.5G + 2.0 atm).\n\nLos 'Áureos' de la Zona 3 tienen estructura ósea ligera y órganos adaptados a condiciones suaves. Al descender, su propio cuerpo los aplasta.\n\nSíntomas:\n- Fase aguda: Hemorragia nasal, dificultad respiratoria\n- Colapso vascular: Los capilares estallan\n- Fallo orgánico: Hígado, riñones se comprimen\n- Muerte en minutos sin exoesqueleto de soporte\n\nTratamiento:\n- Exoesqueleto con pistones hidráulicos\n- Compresión externa para mantener circulación\n- Ascenso inmediato a zona de baja gravedad\n\nKaelen Solis sufría Barosis aguda cuando Zian lo rescató. Sin su armadura de chatarra, habría muerto en segundos.",
+    "imageUrl": "assets/images/lore/barosis.jpg",
+    "isUnlocked": false,
+    "unlockTrigger": "chapter_01"
+  },
+  {
+    "id": "lore-taller-vosh",
+    "keyword": "Taller Vosh",
+    "title": "Taller Vosh - Catedral Industrial",
+    "category": "location",
+    "content": "El Taller Vosh es un complejo industrial masivo en el corazón del Aro 2, Zona 1. No es un simple taller; es una catedral de grasa y metal fatigado donde se reparan batiscafos, motores de Tren Gusano y maquinaria del Horno.\n\nCaracterísticas:\n- Prensas hidráulicas del tamaño de edificios\n- Grúas que chirrían como animales heridos\n- Atmósfera: 2.0 atm, sopa de cobre y aceite diésel\n- Iluminación: Naranja desde rejillas del suelo\n- Nivel sonoro: 95+ decibelios\n\nPropiedad:\n- Dirigido por Vosh (68 años), mentor de Zian\n- Emplea a 30+ trabajadores\n- Paga 'protección' a Gorgos y el Sínodo\n- Refugio de usuarios de Frecuencia\n\nEl taller es uno de los pocos lugares donde los trabajadores mantienen dignidad y orgullo por su oficio, a pesar de las condiciones infernales.",
+    "imageUrl": "assets/images/lore/taller_vosh.jpg",
+    "isUnlocked": false,
+    "unlockTrigger": "chapter_01"
+  },
+  {
+    "id": "lore-gorgos",
+    "keyword": "Gorgos",
+    "title": "Gorgos - El Cobrador",
+    "category": "character",
+    "content": "Gorgos es el cobrador más temido de la Zona 1. Trabaja para el Sínodo recolectando 'impuestos' de protección y deudas de los talleres. Mide 2 metros, pesa 135 kg de músculo y sadismo.\n\nAugmentaciones:\n- Mandíbula hidráulica de acero: Reemplaza mitad inferior del rostro\n- Pistones cromados conectados al cráneo\n- Fuerza de mordida: Capaz de romper metal\n- Goteo constante de lubricante negro\n\nMétodos:\n- Amenazas a familias y objetos sagrados\n- Venta de deudores a laboratorios de la Zona 4\n- Captura de usuarios de Frecuencia para Kross (1,000 créditos)\n- Violencia extrema cuando es necesario\n\nRelación con Zian:\n- Deuda: 5,500 créditos (imposible de pagar)\n- Plazo: 7 días\n- Amenaza: Vender la urna de Nilo o el brazo de magma\n\nGorgos representa el poder brutal del Sínodo sobre los trabajadores de la Zona 1.",
+    "imageUrl": "assets/images/lore/gorgos.jpg",
+    "isUnlocked": false,
+    "unlockTrigger": "chapter_01"
+  },
+  {
+    "id": "lore-zian-vosh",
+    "keyword": "Zian",
+    "title": "Zian Vosh - El Vulkan",
+    "category": "character",
+    "content": "Zian Vosh, 25 años, es un mecánico de la Zona 1 marcado por tragedia y mutación. Sobreviviente del Incidente K-9, perdió a su hermano Nilo y su brazo derecho bajo una viga colapsada hace 5 años.\n\nMutación:\n- Brazo derecho: Masa de basalto volcánico negro\n- Grietas: Magma real a 1200°C fluye por ellas\n- Conexión: Ritual diario doloroso al enchufar nervios\n- Poder: Puede fundir acero mediante la Frecuencia\n- Costo: Calcificación Fase 1 en mano izquierda\n\nAdaptaciones físicas (Zona 1):\n- Huesos 30% más densos\n- Músculos compactos como cables\n- Piel curtida por calor y químicos\n- Postura encorvada por 1.5G\n\nCarga emocional:\n- Urna de aluminio con cenizas de Nilo (2 kg)\n- Promesa: Llevar a Nilo 'al cielo' (Zona 5)\n- Culpa: No pudo salvar a su hermano\n- Deuda: 5,500 créditos con Gorgos\n\nApodo: 'Vulkan' por su brazo de fuego\nMentor: Vosh (68 años)\nSalario: 70 créditos/día",
+    "imageUrl": "assets/images/lore/zian_vosh.jpg",
+    "isUnlocked": false,
+    "unlockTrigger": "chapter_01"
+  },
+  {
+    "id": "lore-kaelen-solis",
+    "keyword": "Kaelen",
+    "title": "Kaelen Solis - El Áureo Caído",
+    "category": "character",
+    "content": "Kaelen Solis es un joven aristocrata de la Zona 3, los 'Áureos'. Pálido, con pelo rubio platino, representa la élite privilegiada de Rustbone. Su estructura ósea ligera está adaptada a 1.0G, lo que lo hace extremadamente frágil en las zonas inferiores.\n\nOrigen:\n- Zona 3: Élite aristocrática\n- Familia: Apellido 'Solis' indica alta nobleza\n- Gravedad nativa: 1.0G (cómoda para humanos)\n- Presión atmosférica: 1.0 atm estándar\n\nEquipamiento:\n- Exoesqueleto de chatarra: Soporte vital improvisado\n- Pistones hidráulicos: Comprimen cuerpo para mantener circulación\n- Manómetros en pecho: Monitorizan presión crítica\n- Bolsa de cuero: Llena de créditos (suficientes para pagar deuda de Zian)\n\nCondición médica:\n- Barosis aguda al descender a Zona 1\n- Hemorragia nasal (sangre oscura)\n- Riesgo de muerte sin exoesqueleto\n\nRescate:\n- Atrapado bajo viga de media tonelada\n- Salvado por Zian usando la Frecuencia\n- Precio: Todo su dinero",
+    "imageUrl": "assets/images/lore/kaelen_solis.jpg",
+    "isUnlocked": false,
+    "unlockTrigger": "chapter_01"
+  },
+  {
+    "id": "lore-rox-ferryn",
+    "keyword": "Rox",
+    "title": "Rox Ferryn - La Piloto Rosa",
+    "category": "character",
+    "content": "Rox Ferryn es una piloto contrabandista con estilo único y habilidades extraordinarias. Su pelo rosa neón es resultado de simbiosis fúngica que reacciona al estrés, iluminándose en situaciones de peligro.\n\nAugmentaciones:\n- Ojo izquierdo: Obturador mecánico de cámara\n- Función: Zoom óptico, visión nocturna, análisis térmico\n- Sonido: Clic-clic al contraerse y enfocar\n\nEquipamiento:\n- Chaqueta de piloto inmensa (múltiples bolsillos)\n- Botas lunares (adaptadas a gravedad variable)\n- Nave: 'Deriva' (batiscafo modificado)\n\nPersonalidad:\n- Sarcástica y pragmática\n- Comerciante de oportunidades\n- Tarifa doble por 'huida bajo fuego'\n- Conocimiento profundo de túneles y rutas secretas\n\nAparición:\n- Llega justo después del rescate de Kaelen\n- Detecta la llegada de la Guardia Industrial\n- Ofrece transporte (caro) para escapar\n- Lidera la huida del trío por túneles traseros\n\nSecreto: Parece saber más sobre el K-9 de lo que admite.",
+    "imageUrl": "assets/images/lore/rox_ferryn.jpg",
+    "isUnlocked": false,
+    "unlockTrigger": "chapter_01"
+  },
+  {
+    "id": "lore-sinodo",
+    "keyword": "Sínodo",
+    "title": "El Sínodo - Gobierno Autoritario",
+    "category": "faction",
+    "content": "El Sínodo es el gobierno autoritario de Rustbone, controlando las 5 zonas mediante fuerza militar, vigilancia constante y explotación económica.\n\nLiderazgo:\n- Almirante Kross: Líder supremo, obsesionado con capturar usuarios de Frecuencia\n- Consejo de Zona: Gobernadores de cada zona\n- Guardia Industrial: Policía militar\n- Guardia de Élite: Batallones especiales\n\nControl:\n- Aranceles: Impuestos por ventilación, agua, electricidad\n- Protección: Mafias como Gorgos cobran 'seguridad'\n- Vigilancia: Sensores térmicos detectan uso de Frecuencia\n- Experimentación: Paga 1,000 créditos por usuarios capturados\n\nEconomía:\n- Crédito: Moneda digital\n- Salarios: 70 créditos/día para trabajadores Zona 1\n- Deudas: Sistema diseñado para esclavitud perpetua\n\nFilosofía:\n- Mantener orden a cualquier costo\n- Suprimir usuarios de Frecuencia (amenaza)\n- Preservar jerarquía de zonas\n- Evitar despertar de la Entidad del Horno",
+    "imageUrl": "assets/images/lore/sinodo.jpg",
     "isUnlocked": false,
     "unlockTrigger": "chapter_01"
   }
