@@ -1,0 +1,1950 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "2026-02-03T14:40:05.999Z",
+  "universe": "Rustbone",
+  "description": "Enciclopedia completa del universo RUSTBONE: una esfera-prisión cósmica alienígena de 20 anillos donde la humanidad sobrevive entre el magma del Horno, la tecnología de los Custodios y la desolación de la Zona Muerta. Un universo grimdark de ciencia ficción hard con 750 episodios narrativos.",
+  "categories": [
+    {
+      "id": "rings",
+      "name": "Los 20 Anillos",
+      "icon": "🏛️",
+      "description": "Estructura vertical de Rustbone: 20 anillos concéntricos distribuidos en 5 zonas",
+      "entries": [
+        {
+          "id": "lore-ring-001",
+          "title": "Aro 1 - El Núcleo del Horno",
+          "category": "rings",
+          "shortDescription": "Núcleo incandescente inaccesible a 2000°C+",
+          "fullDescription": "El Aro 1 es el corazón geométrico de Rustbone. Esfera de magma y energía a miles de grados que contiene el fragmento de la Entidad Cósmica aprisionada. Genera el Latido (40 Hz cada 2 segundos) y toda la energía que alimenta la esfera-prisión. Protegido por cadenas energéticas alienígenas. Gravedad 1.5G. Población: 0 (inaccesible). Su apagón significaría la extinción instantánea de toda vida en Rustbone.",
+          "keywords": [
+            "aro 1",
+            "horno",
+            "núcleo",
+            "entidad",
+            "magma",
+            "latido"
+          ],
+          "relatedEntries": [
+            "lore-physics-001",
+            "lore-entity-001",
+            "lore-zone-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "horno",
+              "núcleo",
+              "latido"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-002",
+          "title": "Aro 2 - Zona Industrial",
+          "category": "rings",
+          "shortDescription": "Talleres, fundiciones y esclavitud industrial",
+          "fullDescription": "Aro 2 es el corazón industrial de El Crisol (Zona 1). Gravedad 1.5G, temperatura 45°C, presión 2.0 atmósferas. Iluminación naranja permanente desde el Horno. Talleres de chatarra, fundiciones, reactores de reciclaje. Clase trabajadora esclavizada. Ruido constante de 95 decibelios. Aire denso con partículas metálicas. Aquí vive Zian Vosh en el Taller Vosh. Calles de acero oxidado, vapor tóxico, tuberías expuestas. Población: 4 millones.",
+          "keywords": [
+            "aro 2",
+            "crisol",
+            "industrial",
+            "taller vosh",
+            "zian",
+            "1.5G"
+          ],
+          "relatedEntries": [
+            "lore-ring-001",
+            "lore-zone-001",
+            "lore-character-001",
+            "lore-place-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "aro 2",
+              "taller",
+              "fundición"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-003",
+          "title": "Aro 3 - El Muro de Tránsito",
+          "category": "rings",
+          "shortDescription": "Frontera entre industria y selva tóxica",
+          "fullDescription": "Aro 3 marca la transición entre El Crisol y El Vivero. Gravedad 1.4G, temperatura 40°C. Checkpoints del Sínodo Imperial controlan el acceso. Aquí inicia la persecución de Zian en el Capítulo 02. Arquitectura de bloqueo: muros reforzados, puertas hidráulicas. Mercado negro de falsificaciones de pases. Primeros indicios de vegetación mutante en las grietas. Población: 3.8 millones.",
+          "keywords": [
+            "aro 3",
+            "frontera",
+            "checkpoint",
+            "persecución",
+            "sínodo"
+          ],
+          "relatedEntries": [
+            "lore-ring-002",
+            "lore-ring-004",
+            "lore-zone-001",
+            "lore-zone-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-02"
+            ],
+            "keywords": [
+              "aro 3",
+              "persecución",
+              "checkpoint"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-004",
+          "title": "Aro 4 - La Grieta Verde",
+          "category": "rings",
+          "shortDescription": "Inicio de la selva esporal del Vivero",
+          "fullDescription": "Aro 4 es el primer anillo completo del Vivero. Gravedad 1.35G, temperatura 38°C, humedad 60%. Niebla verde persistente (esporas en suspensión). Vegetación fungal cubre las estructuras colapsadas. Árboles Esporales de 80m de altura emergen de las grietas industriales. Aire húmedo, olor a moho y descomposición. Peligro: Sapos de Niebla (Bufo nebulosus) y Arañas de Laboratorio. Población: 2.5 millones (agricultores fungales).",
+          "keywords": [
+            "aro 4",
+            "vivero",
+            "niebla",
+            "esporas",
+            "árboles esporales"
+          ],
+          "relatedEntries": [
+            "lore-ring-003",
+            "lore-zone-002",
+            "lore-species-001",
+            "lore-species-006"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-03",
+              "chapter-04"
+            ],
+            "keywords": [
+              "aro 4",
+              "niebla",
+              "vivero"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-005",
+          "title": "Aro 5 - El Cuello de Botella",
+          "category": "rings",
+          "shortDescription": "Último anillo de El Crisol antes del Vivero",
+          "fullDescription": "Aro 5 cierra la Zona 1 (El Crisol). Gravedad 1.42G, temperatura 42°C. Zona de tránsito obligado entre el infierno industrial y la selva tóxica. Mercado Gris: contrabando, falsificaciones, tráfico de esporas. Calles estrechas, atmósfera claustrofóbica. Aquí Zian debe decidir: descender al Horno (Aro 1) o ascender a la élite. Población: 2.2 millones (contrabandistas, traficantes).",
+          "keywords": [
+            "aro 5",
+            "cuello",
+            "mercado gris",
+            "contrabando",
+            "tránsito"
+          ],
+          "relatedEntries": [
+            "lore-ring-004",
+            "lore-ring-006",
+            "lore-zone-001",
+            "lore-faction-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-05"
+            ],
+            "keywords": [
+              "aro 5",
+              "mercado",
+              "tránsito"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-006",
+          "title": "Aro 6 - Corazón del Vivero",
+          "category": "rings",
+          "shortDescription": "Selva fungal en su máximo esplendor",
+          "fullDescription": "Aro 6 es el núcleo ecológico del Vivero (Zona 2). Gravedad 1.35G, temperatura 35°C, humedad 75%. Niebla verde permanente que reduce visibilidad a 20 metros. Bosques de Árboles Esporales (100m altura) cubren el 80% del anillo. Campos fungales cultivados por la facción de Tovar. Bioluminiscencia azul y verde. Ruinas de laboratorios botánicos del pasado. Fauna: Ratas de Tubo, Caracoles de Óxido. Población: 2.0 millones.",
+          "keywords": [
+            "aro 6",
+            "vivero",
+            "campos tovar",
+            "fungal",
+            "bioluminiscencia"
+          ],
+          "relatedEntries": [
+            "lore-ring-005",
+            "lore-zone-002",
+            "lore-species-001",
+            "lore-character-006"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-06"
+            ],
+            "keywords": [
+              "aro 6",
+              "tovar",
+              "campos"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-007",
+          "title": "Aro 7 - Los Campos de Tovar",
+          "category": "rings",
+          "shortDescription": "Agricultura fungal controlada por Tovar",
+          "fullDescription": "Aro 7 está dominado por Tovar el Esporal, señor de la guerra agrícola. Gravedad 1.30G, temperatura 32°C. Cultivos masivos de hongos comestibles que alimentan Rustbone. Torres de observación construidas sobre Árboles Esporales. Milicia privada de Tovar patrulla constantemente. Sistema de irrigación con condensación de niebla. Mercado fungal: trueque de esporas medicinales. Población: 1.8 millones (90% agricultores).",
+          "keywords": [
+            "aro 7",
+            "tovar",
+            "agricultura",
+            "hongos",
+            "milicia"
+          ],
+          "relatedEntries": [
+            "lore-ring-006",
+            "lore-character-006",
+            "lore-faction-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-07"
+            ],
+            "keywords": [
+              "aro 7",
+              "tovar",
+              "hongos"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-008",
+          "title": "Aro 8 - Torres de Asedio",
+          "category": "rings",
+          "shortDescription": "Fortificaciones militares en la selva",
+          "fullDescription": "Aro 8 alberga torres militares construidas para contener rebeliones del Vivero. Gravedad 1.28G, temperatura 30°C. Estructuras de acero de 150m de altura emergiendo de la selva. Cuarteles de la Guardia Industrial. Punto de control antes del ascenso a La Élite (Zona 3). Aquí ocurre el primer enfrentamiento masivo con el Sínodo en la narrativa. Población: 1.5 millones (50% militares).",
+          "keywords": [
+            "aro 8",
+            "torres",
+            "asedio",
+            "militares",
+            "guardia"
+          ],
+          "relatedEntries": [
+            "lore-ring-007",
+            "lore-ring-009",
+            "lore-faction-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-08"
+            ],
+            "keywords": [
+              "aro 8",
+              "torres",
+              "guardia"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-009",
+          "title": "Aro 9 - El Mercado de la Grieta",
+          "category": "rings",
+          "shortDescription": "Mercado negro entre el Vivero y la Élite",
+          "fullDescription": "Aro 9 es una zona de comercio ilegal. Gravedad 1.25G, temperatura 28°C. Aquí se mezclan los marginados del Vivero con comerciantes corruptos de La Élite. Mercado de la Grieta: venta de esporas, armas de chatarra, implantes ilegales, identidades falsas. Arquitectura caótica: pasarelas colgantes, tiendas en contenedores. Olor a especias fungales y aceite. Población: 1.2 millones (comerciantes, criminales).",
+          "keywords": [
+            "aro 9",
+            "mercado grieta",
+            "comercio",
+            "ilegal",
+            "identidades"
+          ],
+          "relatedEntries": [
+            "lore-ring-008",
+            "lore-ring-010",
+            "lore-zone-002",
+            "lore-zone-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-09"
+            ],
+            "keywords": [
+              "aro 9",
+              "mercado",
+              "grieta"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-010",
+          "title": "Aro 10 - Cuello de Botella Superior",
+          "category": "rings",
+          "shortDescription": "Último anillo del Vivero antes de la Élite",
+          "fullDescription": "Aro 10 cierra la Zona 2 (El Vivero). Gravedad 1.20G, temperatura 25°C. Checkpoint masivo del Sínodo: escáneres biométricos, registros invasivos. La niebla verde desaparece gradualmente. Arquitectura transicional: acero oxidado da paso a mármol sintético. Aquí la Trinidad (Zian, Kaelen, Rox) enfrenta su primera prueba real de cohesión. Población: 1.0 millón (50% guardias fronterizos).",
+          "keywords": [
+            "aro 10",
+            "cuello botella",
+            "checkpoint",
+            "frontera",
+            "élite"
+          ],
+          "relatedEntries": [
+            "lore-ring-009",
+            "lore-ring-011",
+            "lore-zone-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-10"
+            ],
+            "keywords": [
+              "aro 10",
+              "checkpoint",
+              "élite"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-011",
+          "title": "Aro 11 - Entrada a La Élite",
+          "category": "rings",
+          "shortDescription": "Primer anillo aristocrático (1.0G)",
+          "fullDescription": "Aro 11 marca el inicio de la Zona 3 (La Élite). Gravedad 1.0G (equivalente Tierra), temperatura 22°C controlada, presión 1.0 atmósfera. Iluminación blanca artificial simulando día terrestre. Calles limpias de mármol sintético, árboles reales en jardines privados (privilegio extremo). Distritos comerciales de lujo: hologramas, tecnología de punta. Aquí vive Kaelen Solis antes de su caída. Población: 3.5 millones (clase alta).",
+          "keywords": [
+            "aro 11",
+            "élite",
+            "aristocracia",
+            "1.0G",
+            "kaelen",
+            "lujo"
+          ],
+          "relatedEntries": [
+            "lore-ring-010",
+            "lore-zone-003",
+            "lore-character-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-11"
+            ],
+            "keywords": [
+              "aro 11",
+              "élite",
+              "aristocracia"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-012",
+          "title": "Aro 12 - Distritos Administrativos",
+          "category": "rings",
+          "shortDescription": "Centro de gobierno del Sínodo Imperial",
+          "fullDescription": "Aro 12 alberga las oficinas centrales del Sínodo Imperial. Gravedad 1.0G, temperatura 21°C. Arquitectura Art Deco: dorado, columnas, escaleras monumentales. Aquí reside el Almirante Kross y la cúpula militar. Sala del Consejo Imperial (700 asientos). Propaganda holográfica en todas las esquinas: \"El Orden Preserva la Vida\". Distritos militares de élite. Población: 2.8 millones (burócratas, militares de alto rango).",
+          "keywords": [
+            "aro 12",
+            "sínodo",
+            "kross",
+            "gobierno",
+            "consejo"
+          ],
+          "relatedEntries": [
+            "lore-ring-011",
+            "lore-ring-013",
+            "lore-faction-002",
+            "lore-character-004"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-12"
+            ],
+            "keywords": [
+              "aro 12",
+              "sínodo",
+              "kross"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-013",
+          "title": "Aro 13 - Zona Tecnológica Superior",
+          "category": "rings",
+          "shortDescription": "Último anillo de La Élite con tech avanzada",
+          "fullDescription": "Aro 13 cierra la Zona 3 (La Élite). Gravedad 1.0G, temperatura 20°C. Distrito tecnológico: torres de comunicaciones, redes neuronales, centros de datos. Aquí se almacena la memoria histórica de Rustbone (censurada por el Sínodo). Mercado de implantes legales: mejoras cognitivas, ojos cibernéticos. Frontera con la Zona 4 (Laboratorios). Población: 1.5 millones (ingenieros, hackers autorizados).",
+          "keywords": [
+            "aro 13",
+            "tecnología",
+            "datos",
+            "implantes",
+            "comunicaciones"
+          ],
+          "relatedEntries": [
+            "lore-ring-012",
+            "lore-ring-014",
+            "lore-zone-004"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-13"
+            ],
+            "keywords": [
+              "aro 13",
+              "tecnología",
+              "datos"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-014",
+          "title": "Aro 14 - Entrada a los Laboratorios",
+          "category": "rings",
+          "shortDescription": "Primera zona científica del Sínodo",
+          "fullDescription": "Aro 14 inicia la Zona 4 (Los Laboratorios). Gravedad 0.95G, temperatura 18°C, presión 0.9 atmósferas. Iluminación blanca clínica. Complejos de investigación científica: genética, física de La Frecuencia, calcificación. Estética aséptica, estéril, opresiva. Personal científico uniformado. Restricción total de acceso sin autorización militar. Población: 1.8 millones (científicos, técnicos, soldados).",
+          "keywords": [
+            "aro 14",
+            "laboratorios",
+            "científico",
+            "investigación",
+            "aséptico"
+          ],
+          "relatedEntries": [
+            "lore-ring-013",
+            "lore-zone-004",
+            "lore-faction-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-14"
+            ],
+            "keywords": [
+              "aro 14",
+              "laboratorio",
+              "investigación"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-015",
+          "title": "Aro 15 - Instalaciones Científicas Centrales",
+          "category": "rings",
+          "shortDescription": "Laboratorios de experimentación biofísica",
+          "fullDescription": "Aro 15 concentra los experimentos del Sínodo Imperial. Gravedad 0.93G, temperatura 16°C. Laboratorio K-9: experimentos de calcificación forzada en prisioneros. Estudios de La Frecuencia: resonancia celular, manipulación molecular. Cámaras de aislamiento para usuarios avanzados. Salas de disección de Sabuesos de Escoria. Ética inexistente. Población: 1.2 millones (90% científicos del régimen).",
+          "keywords": [
+            "aro 15",
+            "k-9",
+            "experimentos",
+            "calcificación",
+            "frecuencia"
+          ],
+          "relatedEntries": [
+            "lore-ring-014",
+            "lore-ring-016",
+            "lore-event-001",
+            "lore-tech-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-15"
+            ],
+            "keywords": [
+              "aro 15",
+              "k-9",
+              "experimentos"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-016",
+          "title": "Aro 16 - Labs del Sínodo Imperial",
+          "category": "rings",
+          "shortDescription": "Laboratorios secretos de Kross",
+          "fullDescription": "Aro 16 alberga los proyectos más oscuros del Sínodo. Gravedad 0.90G, temperatura 15°C. Aquí se desarrolla el Protocolo Omega (bomba nuclear de último recurso). Úteros Artificiales Custodios (450 unidades): reproducción controlada de la población. Estudios de la Entidad Cósmica mediante captura de resonancia del Horno. Acceso restringido al Almirante Kross y su círculo íntimo. Población: 800,000 (élite científica, militares especiales).",
+          "keywords": [
+            "aro 16",
+            "protocolo omega",
+            "úteros",
+            "bomba",
+            "kross"
+          ],
+          "relatedEntries": [
+            "lore-ring-015",
+            "lore-ring-017",
+            "lore-tech-005",
+            "lore-character-004"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-16"
+            ],
+            "keywords": [
+              "aro 16",
+              "protocolo",
+              "omega"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-017",
+          "title": "Aro 17 - Investigación Profunda",
+          "category": "rings",
+          "shortDescription": "Último anillo de Laboratorios antes del vacío",
+          "fullDescription": "Aro 17 cierra la Zona 4 (Los Laboratorios). Gravedad 0.88G, temperatura 12°C. Zona de investigación extrema: estudios de supervivencia en condiciones de vacío, adaptación a gravedad mínima. Aquí se prueban trajes de ambiente para expediciones al Muro de los Durmientes (Aro 20). Registros históricos fragmentados de los Custodios (altamente clasificados). Población: 400,000 (científicos de frontera).",
+          "keywords": [
+            "aro 17",
+            "frontera",
+            "vacío",
+            "custodios",
+            "supervivencia"
+          ],
+          "relatedEntries": [
+            "lore-ring-016",
+            "lore-ring-018",
+            "lore-zone-005",
+            "lore-entity-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-17"
+            ],
+            "keywords": [
+              "aro 17",
+              "frontera",
+              "custodios"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-018",
+          "title": "Aro 18 - Inicio de la Zona Muerta",
+          "category": "rings",
+          "shortDescription": "Primera zona de desolación y abandono",
+          "fullDescription": "Aro 18 inicia la Zona 5 (La Frontera Muerta). Gravedad 0.85G, temperatura 10°C, presión 0.7 atmósferas. Aire enrarecido (70% oxígeno estándar). Estructuras colapsadas, chatarra industrial, radiación residual. Desiertos metálicos con restos de naves antiguas. Fauna: Ratas de Tubo gigantes (1.5m), Sabuesos de Escoria salvajes. Población: 600,000 (marginados, exiliados, cazadores de chatarra).",
+          "keywords": [
+            "aro 18",
+            "zona muerta",
+            "chatarra",
+            "desolación",
+            "radiación"
+          ],
+          "relatedEntries": [
+            "lore-ring-017",
+            "lore-ring-019",
+            "lore-zone-005",
+            "lore-species-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-18"
+            ],
+            "keywords": [
+              "aro 18",
+              "zona muerta",
+              "chatarra"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-019",
+          "title": "Aro 19 - Cementerio de Naves",
+          "category": "rings",
+          "shortDescription": "Campo de restos de naves ancestrales",
+          "fullDescription": "Aro 19 es un cementerio orbital de tecnología antigua. Gravedad 0.82G, temperatura 8°C, presión 0.65 atmósferas. Restos de naves de generación de los primeros 500 años de Rustbone. Estructuras de 2 km de largo, oxidadas, vacías. Cascos con inscripciones en idiomas muertos. Leyendas de \"fantasmas de metal\" (ecos de IA antiguas). Población: 400,000 (arqueólogos de chatarra, cultistas).",
+          "keywords": [
+            "aro 19",
+            "naves",
+            "cementerio",
+            "tecnología antigua",
+            "fantasmas"
+          ],
+          "relatedEntries": [
+            "lore-ring-018",
+            "lore-ring-020",
+            "lore-history-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-19"
+            ],
+            "keywords": [
+              "aro 19",
+              "naves",
+              "cementerio"
+            ]
+          }
+        },
+        {
+          "id": "lore-ring-020",
+          "title": "Aro 20 - El Muro de los Durmientes",
+          "category": "rings",
+          "shortDescription": "Casco exterior con 1,024 Durmientes en stasis",
+          "fullDescription": "Aro 20 es el casco exterior de Rustbone y el destino final de la narrativa. Gravedad 0.80G, temperatura 5°C, presión 0.6 atmósferas. El Muro de los Durmientes: 1,024 gigantes de 3 metros fusionados con el casco de la esfera-prisión. Cerámica cristalina translúcida, fusión biomecánica. Duermen desde Year 0 (hace 1,000 años). Más allá del muro: el vacío absoluto. Aquí ocurre el Trinity Ending (Episodio 750). Población: 600,000 (peregrinos, moribundos).",
+          "keywords": [
+            "aro 20",
+            "durmientes",
+            "muro",
+            "exterior",
+            "trinity ending",
+            "vacío"
+          ],
+          "relatedEntries": [
+            "lore-ring-019",
+            "lore-entity-002",
+            "lore-event-003",
+            "lore-zone-005"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-20"
+            ],
+            "keywords": [
+              "aro 20",
+              "durmientes",
+              "muro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "zones",
+      "name": "Las 5 Zonas",
+      "icon": "🗺️",
+      "description": "División geopolítica y ambiental de Rustbone",
+      "entries": [
+        {
+          "id": "lore-zone-001",
+          "title": "ZONA 1: El Crisol (Aros 1-5)",
+          "category": "zones",
+          "shortDescription": "Zona industrial de magma y gravedad extrema (1.5G)",
+          "fullDescription": "El Crisol (Aros 1-5) es el corazón industrial de Rustbone. Gravedad 1.5G, temperatura 45°C, presión 2.0 atmósferas. Población: 15.2 millones (40% total). Iluminación naranja permanente desde el Horno. Talleres de chatarra, fundiciones masivas, reactores de reciclaje. Clase trabajadora esclavizada por el Sínodo Imperial. Ruido constante de 95 decibelios. Aire denso y amargo con partículas metálicas en suspensión. Aquí vive Zian Vosh y la mayoría de la clase obrera. Calles de acero oxidado, vapor tóxico, tuberías expuestas de 10m de diámetro.",
+          "keywords": [
+            "zona 1",
+            "crisol",
+            "industrial",
+            "magma",
+            "1.5G",
+            "obreros"
+          ],
+          "relatedEntries": [
+            "lore-ring-002",
+            "lore-ring-003",
+            "lore-character-001",
+            "lore-faction-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "crisol",
+              "zona 1",
+              "industrial"
+            ]
+          }
+        },
+        {
+          "id": "lore-zone-002",
+          "title": "ZONA 2: El Vivero (Aros 6-10)",
+          "category": "zones",
+          "shortDescription": "Selva tóxica de flora mutante y esporas",
+          "fullDescription": "El Vivero (Aros 6-10) es un ecosistema bio-contaminado. Gravedad 1.2-1.4G (gradiente), temperatura 30-35°C. Población: 9.2 millones (24% total). Niebla verde perpetua (esporas en suspensión). Bosques de Árboles Esporales de 100m de altura. Laboratorios botánicos del pasado colapsaron y la vegetación mutó incontrolablemente. Humedad 70-80%, olor a moho y descomposición orgánica. Fauna peligrosa: Sapos de Niebla, Arañas de Laboratorio. Agricultura fungal controlada por señores de la guerra como Tovar el Esporal. Zona de tránsito peligrosa entre la industria y la élite.",
+          "keywords": [
+            "zona 2",
+            "vivero",
+            "selva",
+            "esporas",
+            "tovar",
+            "niebla"
+          ],
+          "relatedEntries": [
+            "lore-ring-006",
+            "lore-ring-007",
+            "lore-species-001",
+            "lore-character-006"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-04"
+            ],
+            "keywords": [
+              "vivero",
+              "zona 2",
+              "niebla"
+            ]
+          }
+        },
+        {
+          "id": "lore-zone-003",
+          "title": "ZONA 3: La Élite (Aros 11-13)",
+          "category": "zones",
+          "shortDescription": "Aristocracia, 1.0G, distritos tecnológicos",
+          "fullDescription": "La Élite (Aros 11-13) es el refugio de la clase aristocrática. Gravedad 1.0G (equivalente Tierra), temperatura 22°C controlada, presión 1.0 atmósfera. Población: 7.8 millones (20% total). Iluminación blanca artificial simulando día terrestre. Calles limpias de mármol sintético, árboles reales en jardines privados (privilegio extremo). Distritos comerciales de lujo con hologramas y tecnología de punta. Arquitectura Art Deco: dorado, columnas, escaleras monumentales. Aquí reside el Almirante Kross y el Sínodo Imperial. Propaganda constante: \"El Orden Preserva la Vida\". Contraste brutal con El Crisol: 5 anillos de distancia, dos mundos distintos.",
+          "keywords": [
+            "zona 3",
+            "élite",
+            "aristocracia",
+            "1.0G",
+            "lujo",
+            "kaelen"
+          ],
+          "relatedEntries": [
+            "lore-ring-011",
+            "lore-ring-012",
+            "lore-character-003",
+            "lore-faction-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-11"
+            ],
+            "keywords": [
+              "élite",
+              "zona 3",
+              "aristocracia"
+            ]
+          }
+        },
+        {
+          "id": "lore-zone-004",
+          "title": "ZONA 4: Los Laboratorios (Aros 14-17)",
+          "category": "zones",
+          "shortDescription": "Instalaciones científicas del Sínodo Imperial",
+          "fullDescription": "Los Laboratorios (Aros 14-17) son el corazón científico del régimen. Gravedad 0.95G, temperatura 15-20°C, presión 0.9 atmósferas. Población: 4.2 millones (11% total). Iluminación blanca clínica, fluorescente. Complejos de investigación: genética, física de La Frecuencia, experimentos de calcificación. Instalaciones clave: Laboratorio K-9 (calcificación forzada), Protocolo Omega (bomba nuclear), Úteros Artificiales Custodios (450 unidades). Estética aséptica, estéril, opresiva. Personal científico uniformado, ética inexistente. Acceso restringido solo con autorización militar. Aquí el Sínodo busca controlar La Frecuencia y la Entidad Cósmica.",
+          "keywords": [
+            "zona 4",
+            "laboratorios",
+            "científico",
+            "k-9",
+            "protocolo omega"
+          ],
+          "relatedEntries": [
+            "lore-ring-014",
+            "lore-ring-015",
+            "lore-tech-005",
+            "lore-faction-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-14"
+            ],
+            "keywords": [
+              "laboratorios",
+              "zona 4",
+              "científico"
+            ]
+          }
+        },
+        {
+          "id": "lore-zone-005",
+          "title": "ZONA 5: La Frontera Muerta (Aros 18-20)",
+          "category": "zones",
+          "shortDescription": "Chatarra, desolación, frontera exterior",
+          "fullDescription": "La Frontera Muerta (Aros 18-20) es el fin del mundo conocido. Gravedad 0.8G, temperatura 10°C, presión 0.6 atmósferas. Población: 1.6 millones (4% total). Aire enrarecido (70% oxígeno estándar), iluminación mínima. Desiertos de chatarra industrial, estructuras colapsadas, radiación residual. Cementerio de naves ancestrales de 2 km de largo. Fauna salvaje: Ratas de Tubo gigantes (1.5m), Sabuesos de Escoria. Peligros constantes: derrumbes, vacío cercano. Aro 20: El Muro de los Durmientes (1,024 gigantes en stasis). Más allá: el vacío absoluto. Aquí ocurre el Trinity Ending (Episodio 750). Zona habitada por marginados, exiliados, arqueólogos de chatarra, cultistas y moribundos.",
+          "keywords": [
+            "zona 5",
+            "zona muerta",
+            "chatarra",
+            "durmientes",
+            "vacío",
+            "trinity"
+          ],
+          "relatedEntries": [
+            "lore-ring-018",
+            "lore-ring-020",
+            "lore-entity-002",
+            "lore-event-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-17",
+              "chapter-18"
+            ],
+            "keywords": [
+              "zona muerta",
+              "zona 5",
+              "durmientes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Física y Tecnología",
+      "icon": "⚙️",
+      "description": "Leyes físicas, tecnología alienígena y artefactos de Rustbone",
+      "entries": [
+        {
+          "id": "lore-physics-001",
+          "title": "La Esfera-Prisión (Bernal Sphere)",
+          "category": "physics",
+          "shortDescription": "Esfera de Bernal de 80 km con gravedad artificial",
+          "fullDescription": "Rustbone es una Esfera de Bernal modificada de 80 km de diámetro. Construida por los Custodios hace 1,000 años (Year 0) como prisión cósmica para 500 millones de humanos. Genera gravedad artificial mediante un generador alienígena en el núcleo (NO por rotación). Flota suspendida en el vacío, no orbital. Población actual: 38 millones (Year 1000). Mortalidad: 92% en 1,000 años. 20 anillos concéntricos de 1.5 km de altura cada uno. Gravedad diferencial: 1.5G (Aro 2) a 0.8G (Aro 20). El Horno (núcleo) genera toda la energía mediante la Entidad Cósmica aprisionada.",
+          "keywords": [
+            "esfera",
+            "bernal",
+            "prisión",
+            "custodios",
+            "80 km",
+            "gravedad artificial"
+          ],
+          "relatedEntries": [
+            "lore-entity-001",
+            "lore-entity-002",
+            "lore-history-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "esfera",
+              "rustbone",
+              "prisión"
+            ]
+          }
+        },
+        {
+          "id": "lore-physics-002",
+          "title": "El Horno (The Furnace)",
+          "category": "physics",
+          "shortDescription": "Núcleo de magma con fragmento de Entidad Cósmica",
+          "fullDescription": "El Horno es el núcleo geométrico de Rustbone (Aro 1). Esfera de magma y energía a miles de grados que contiene el fragmento de una Entidad Cósmica extradimensional aprisionada por los Custodios. Emite el Latido (40 Hz cada 2 segundos) que se siente en los huesos de todos los habitantes. Genera toda la energía de Rustbone: gravedad artificial, ventilación, iluminación, calor. Protegido por cadenas energéticas alienígenas. Su apagón significaría la extinción instantánea de toda vida. Temperatura estimada: 2000°C+. Acceso: inaccesible (radiación letal).",
+          "keywords": [
+            "horno",
+            "núcleo",
+            "entidad",
+            "latido",
+            "40 Hz",
+            "magma"
+          ],
+          "relatedEntries": [
+            "lore-entity-001",
+            "lore-physics-001",
+            "lore-ring-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "horno",
+              "núcleo",
+              "latido"
+            ]
+          }
+        },
+        {
+          "id": "lore-physics-003",
+          "title": "Gravedad Diferencial (1.5G a 0.8G)",
+          "category": "physics",
+          "shortDescription": "Aros con gravedad progresiva según altitud",
+          "fullDescription": "Rustbone tiene gravedad diferencial artificial por anillos. Aro 2 (industrial): 1.5G. Aro 3: 1.4G. Aro 5: 1.2G. Aros 11-13 (élite): 1.0G. Aro 20 (exterior): 0.8G. La población se ha adaptado biológicamente en 1,000 años: huesos 30% más densos, músculos compactos, corazón hipertrofiado. Habitantes de zonas bajas (1.5G) no pueden subir sin entrenamiento o exoesqueletos. Habitantes de La Élite (1.0G) sufrirían colapso circulatorio (Barosis) en El Crisol sin protección. Costo metabólico: +50% calorías en 1.5G vs 1.0G. Sistema de adaptación: 6 meses mínimo.",
+          "keywords": [
+            "gravedad",
+            "1.5G",
+            "diferencial",
+            "adaptación",
+            "barosis"
+          ],
+          "relatedEntries": [
+            "lore-zone-001",
+            "lore-zone-003",
+            "lore-medical-002",
+            "lore-tech-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "gravedad",
+              "1.5G",
+              "adaptación"
+            ]
+          }
+        },
+        {
+          "id": "lore-tech-001",
+          "title": "La Frecuencia (110 Hz)",
+          "category": "physics",
+          "shortDescription": "Vibración celular que permite manipular materia",
+          "fullDescription": "La Frecuencia es una vibración fundamental del universo a 110 Hz que permite a ciertos individuos alterar las propiedades físicas de la materia mediante resonancia molecular. NO es magia, es biofísica. Los usuarios pueden: calentar, enfriar, endurecer, ablandar materiales. Zian usa La Frecuencia para generar magma a 1200°C en su brazo derecho. El uso prolongado causa Calcificación progresiva (0% a 100%), convirtiendo gradualmente al usuario en piedra-metal. Fase 1: piel grisácea (10-20%). Fase 2: tejidos endurecidos (20-40%). Fase 3: metamorfosis metálica (40-60%). Fase 4: petrificación avanzada (60-80%). Fase 5: fusión/muerte (80-100%). Irreversible. Origen: radiación residual de la Entidad Cósmica.",
+          "keywords": [
+            "frecuencia",
+            "110 Hz",
+            "resonancia",
+            "calcificación",
+            "zian",
+            "magia"
+          ],
+          "relatedEntries": [
+            "lore-medical-001",
+            "lore-entity-001",
+            "lore-character-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "frecuencia",
+              "110 Hz",
+              "resonancia"
+            ]
+          }
+        },
+        {
+          "id": "lore-tech-002",
+          "title": "El Latido (40 Hz)",
+          "category": "physics",
+          "shortDescription": "Pulso infrasónico del Horno cada 2 segundos",
+          "fullDescription": "El Latido es una vibración de 40 Hz que emana del Horno (núcleo) cada 2 segundos exactos. Se siente en los huesos, dientes y órganos internos de todos los habitantes de Rustbone. Es el pulso del sistema de soporte vital de la prisión-esfera. Genera ansiedad subconsciente constante (todos lo sienten pero la mayoría lo ha normalizado). Frecuencia: 0.5 Hz (cada 2 segundos). Intensidad: 40 Hz de vibración infrasónica. Su cese significaría falla total del generador de gravedad o despertar completo de la Entidad Cósmica (ambos escenarios catastróficos). Zian lo describe como \"el corazón de un dios muerto que aún late\".",
+          "keywords": [
+            "latido",
+            "40 Hz",
+            "horno",
+            "vibración",
+            "infrasónico",
+            "ansiedad"
+          ],
+          "relatedEntries": [
+            "lore-physics-002",
+            "lore-entity-001",
+            "lore-character-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "latido",
+              "THRUM",
+              "vibración"
+            ]
+          }
+        },
+        {
+          "id": "lore-tech-003",
+          "title": "Exoesqueletos de Chatarra",
+          "category": "physics",
+          "shortDescription": "Armaduras hidráulicas para adaptarse a gravedad extrema",
+          "fullDescription": "Exoesqueletos son sistemas hidráulicos improvisados que comprimen el cuerpo para mantener la circulación bajo gravedad extrema. Usados por habitantes de La Élite (1.0G) al descender a El Crisol (1.5G). Sistema de pistones neumáticos en piernas, espalda y pecho. Compresión: 15-20% del volumen corporal. Peso: 40-60 kg. Costo: 5,000 créditos (salario mensual de un obrero). Mantenimiento constante. Falla del sistema causa Barosis aguda: sangrado nasal, colapso vascular, edema pulmonar. Fatal en minutos. Kaelen Solis necesita exoesqueleto para sobrevivir en Aro 2 (su estructura ósea ligera de 1.0G no soporta 1.5G sin ayuda).",
+          "keywords": [
+            "exoesqueleto",
+            "chatarra",
+            "gravedad",
+            "barosis",
+            "pistones",
+            "kaelen"
+          ],
+          "relatedEntries": [
+            "lore-physics-003",
+            "lore-medical-002",
+            "lore-character-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "exoesqueleto",
+              "pistones",
+              "kaelen"
+            ]
+          }
+        },
+        {
+          "id": "lore-tech-004",
+          "title": "El Deriva (Nave de Chatarra)",
+          "category": "physics",
+          "shortDescription": "Nave contrabandista de Rox Ferryn",
+          "fullDescription": "El Deriva es la nave de Rox Ferryn, construida con chatarra de 7 naves distintas. Longitud: 18 metros. Capacidad: 6 pasajeros. Motores: híbridos (combustión + propulsión iónica). Velocidad máxima: 800 km/h en atmósfera densa. Blindaje: improvisado (cascos soldados). Sistemas: navegación manual, sensores de radar, camuflaje térmico. Cabina: iluminada con luces de neón rosa. Olor: aceite quemado, especias fungales, café. Armamento: cañón de riel (descarga electromagnética). Rutas secretas: conoce pasadizos entre Aros evitando checkpoints del Sínodo. Registro legal: inexistente (nave \"fantasma\").",
+          "keywords": [
+            "deriva",
+            "nave",
+            "rox",
+            "chatarra",
+            "contrabando",
+            "neón"
+          ],
+          "relatedEntries": [
+            "lore-character-002",
+            "lore-faction-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "deriva",
+              "nave",
+              "rox"
+            ]
+          }
+        },
+        {
+          "id": "lore-tech-005",
+          "title": "Protocolo Omega (Bomba Nuclear)",
+          "category": "physics",
+          "shortDescription": "Último recurso del Sínodo: bomba nuclear en el Horno",
+          "fullDescription": "Protocolo Omega es el arma de último recurso del Almirante Kross. Bomba nuclear instalada en las cadenas energéticas del Horno (Aro 1). Rendimiento: 50 megatones. Objetivo: destruir las cadenas que contienen a la Entidad Cósmica. Consecuencia: liberación de la Entidad = aniquilación de toda vida en Rustbone en segundos. Justificación de Kross: \"Si la prisión cae, que caiga todo\". Código de activación: conocido solo por Kross y 3 científicos del Laboratorio K-9. Instalación: Aro 16. Kross activa el Protocolo Omega en Episodio 650 ante la rebelión masiva liderada por la Trinidad.",
+          "keywords": [
+            "protocolo omega",
+            "bomba",
+            "nuclear",
+            "kross",
+            "horno",
+            "entidad"
+          ],
+          "relatedEntries": [
+            "lore-character-004",
+            "lore-physics-002",
+            "lore-event-002",
+            "lore-ring-016"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-16"
+            ],
+            "keywords": [
+              "protocolo",
+              "omega",
+              "bomba"
+            ]
+          }
+        },
+        {
+          "id": "lore-tech-006",
+          "title": "Úteros Artificiales Custodios (450 Unidades)",
+          "category": "physics",
+          "shortDescription": "Sistema de reproducción controlada alienígena",
+          "fullDescription": "Úteros Artificiales Custodios son 450 cámaras de gestación alienígenas en el Aro 16. Tecnología: biología sintética combinada con nanotecnología. Función: reproducción controlada de la población humana para mantener diversidad genética y evitar colapso demográfico. Gestación: 9 meses (equivalente). Capacidad: 450 embarazos simultáneos. Tasa de éxito: 87%. Selección genética: automática (elimina mutaciones de calcificación heredadas). Control: Sínodo Imperial (decide quién puede procrear). Ética: los nacidos de útero son marcados como \"Generación Cero\" y tienen derechos reducidos. Zian nació en útero artificial tras la muerte de su madre (Year 975).",
+          "keywords": [
+            "úteros",
+            "custodios",
+            "reproducción",
+            "genética",
+            "sínodo",
+            "zian"
+          ],
+          "relatedEntries": [
+            "lore-entity-002",
+            "lore-ring-016",
+            "lore-character-001",
+            "lore-faction-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-15",
+              "chapter-16"
+            ],
+            "keywords": [
+              "úteros",
+              "reproducción",
+              "custodios"
+            ]
+          }
+        },
+        {
+          "id": "lore-tech-007",
+          "title": "Trenes Gusano (Transporte Vertical)",
+          "category": "physics",
+          "shortDescription": "Vehículos articulados para tránsito entre Aros",
+          "fullDescription": "Trenes Gusano son vehículos de transporte vertical que recorren los 16 Rayos-Conductos de Rustbone. Articulación giroscópica permite moverse en gravedad diferencial. Longitud: 80 metros (10 vagones). Capacidad: 500 pasajeros. Velocidad: 200 km/h promedio. Rotación: cada 30 días, 8 horas de duración (cuando el Rayo-Conducto rota hacia la posición de tránsito). Checkpoints en cada zona: escaneo biométrico, registro de identidad. Costo: 100 créditos (salario semanal de un obrero). Contrabandistas como Rox Ferryn conocen rutas secretas para evitar Trenes Gusano y checkpoints.",
+          "keywords": [
+            "tren gusano",
+            "transporte",
+            "rayos conductos",
+            "checkpoint",
+            "rotación"
+          ],
+          "relatedEntries": [
+            "lore-physics-001",
+            "lore-faction-002",
+            "lore-character-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-03"
+            ],
+            "keywords": [
+              "tren",
+              "gusano",
+              "transporte"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "medical",
+      "name": "Biología y Medicina",
+      "icon": "🩺",
+      "description": "Condiciones médicas, mutaciones y adaptaciones biológicas",
+      "entries": [
+        {
+          "id": "lore-medical-001",
+          "title": "Calcificación (5 Fases)",
+          "category": "medical",
+          "shortDescription": "Petrificación progresiva por uso de La Frecuencia",
+          "fullDescription": "Calcificación es una condición degenerativa irreversible en usuarios de La Frecuencia. El uso de resonancia molecular a 110 Hz causa endurecimiento gradual de tejidos vivos. **Fase 1 (10-20%)**: Piel grisácea, pérdida de sensibilidad táctil. **Fase 2 (20-40%)**: Tejidos internos endurecidos, dolor crónico. **Fase 3 (40-60%)**: Metamorfosis metálica, órganos convertidos en piedra-metal. **Fase 4 (60-80%)**: Petrificación avanzada, movilidad limitada. **Fase 5 (80-100%)**: Fusión total, muerte cerebral. Zian Vosh está en Fase 1 al inicio de la narrativa (Episodio 1). Kaelen Solis alcanza Fase 3 en Episodio 400. Rox Ferryn evita Calcificación (no usa La Frecuencia). Tratamiento: inexistente. El Sínodo estudia la Calcificación en el Laboratorio K-9 para crear super-soldados petrificados.",
+          "keywords": [
+            "calcificación",
+            "petrificación",
+            "fases",
+            "frecuencia",
+            "zian",
+            "irreversible"
+          ],
+          "relatedEntries": [
+            "lore-tech-001",
+            "lore-character-001",
+            "lore-zone-004"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "calcificación",
+              "grisáceo",
+              "piedra"
+            ]
+          }
+        },
+        {
+          "id": "lore-medical-002",
+          "title": "Barosis (Colapso Circulatorio)",
+          "category": "medical",
+          "shortDescription": "Enfermedad por exposición a gravedad extrema",
+          "fullDescription": "Barosis es un colapso circulatorio causado por exposición a presión atmosférica o gravedad extremas sin adaptación previa. **Síntomas agudos**: sangrado nasal, oídos sangrantes, colapso vascular, edema pulmonar, pérdida de consciencia. **Fatal en**: 5-10 minutos sin exoesqueleto de soporte. **Común en**: habitantes de La Élite (1.0G) que descienden a El Crisol (1.5G) sin preparación. **Prevención**: entrenamiento gradual (6 meses) o exoesqueleto hidráulico. **Tratamiento**: cámara de presión controlada, transfusión de sangre. **Mortalidad**: 60% sin tratamiento inmediato. Kaelen Solis sufre Barosis moderada en Capítulo 01 al llegar al Aro 2 sin exoesqueleto adecuado.",
+          "keywords": [
+            "barosis",
+            "gravedad",
+            "colapso",
+            "presión",
+            "sangrado",
+            "kaelen"
+          ],
+          "relatedEntries": [
+            "lore-physics-003",
+            "lore-tech-003",
+            "lore-character-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "barosis",
+              "sangre",
+              "colapso"
+            ]
+          }
+        },
+        {
+          "id": "lore-medical-003",
+          "title": "Adaptación Biológica (1,000 Años)",
+          "category": "medical",
+          "shortDescription": "Cambios evolutivos en 1,000 años de encarcelamiento",
+          "fullDescription": "La población de Rustbone ha sufrido adaptación biológica en 1,000 años (Year 0 a Year 1000). **Cambios físicos**: huesos 30% más densos, músculos compactos, corazón hipertrofiado, pulmones expandidos. **Especiación por zona**: habitantes de El Crisol (1.5G) son 15 cm más bajos y 20 kg más pesados que habitantes de La Élite (1.0G). **Marcadores genéticos**: diversidad reducida (efecto fundador: 500 millones → 38 millones en 1,000 años). **Úteros Artificiales**: contrarrestan colapso genético mediante selección automática. **Calcificación heredable**: 3% de mutación de calcificación espontánea en nacidos post-Year 800. **Inmunidad**: resistencia a esporas tóxicas del Vivero tras 500 años de exposición.",
+          "keywords": [
+            "adaptación",
+            "evolución",
+            "biológica",
+            "1000 años",
+            "especiación"
+          ],
+          "relatedEntries": [
+            "lore-physics-003",
+            "lore-tech-006",
+            "lore-history-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "adaptación",
+              "evolución",
+              "biología"
+            ]
+          }
+        },
+        {
+          "id": "lore-medical-004",
+          "title": "Síndrome de Calcificación Espontánea (3%)",
+          "category": "medical",
+          "shortDescription": "Mutación heredada que causa petrificación sin uso de La Frecuencia",
+          "fullDescription": "Síndrome de Calcificación Espontánea es una mutación genética que apareció en Year 800 (200 años atrás). Afecta al 3% de nacidos en Rustbone. Los afectados sufren calcificación progresiva sin usar La Frecuencia. **Inicio**: edad 15-20 años. **Progresión**: Fase 1 a Fase 5 en 10-15 años. **Mortalidad**: 100% (sin excepciones). **Detección**: escaneo genético en Úteros Artificiales (embriones afectados son abortados automáticamente). **Respuesta del Sínodo**: cuarentena obligatoria, experimentación en Laboratorio K-9. **Teoría científica**: radiación residual de la Entidad Cósmica mutó el ADN humano. Nilo Vosh (hermano de Zian) era portador asintomático de la mutación.",
+          "keywords": [
+            "calcificación espontánea",
+            "mutación",
+            "genética",
+            "3%",
+            "nilo"
+          ],
+          "relatedEntries": [
+            "lore-medical-001",
+            "lore-character-001",
+            "lore-entity-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-05"
+            ],
+            "keywords": [
+              "mutación",
+              "calcificación",
+              "espontánea"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species",
+      "name": "Especies y Fauna",
+      "icon": "🦎",
+      "description": "Criaturas, mutaciones y ecosistema de Rustbone",
+      "entries": [
+        {
+          "id": "lore-species-001",
+          "title": "Sabueso de Escoria (Canis ferrum)",
+          "category": "species",
+          "shortDescription": "Cánido metálico con dientes de acero",
+          "fullDescription": "Sabueso de Escoria es un cánido domesticado mutado tras 1,000 años de exposición a radiación del Horno. Tamaño: 1.2m altura, 90kg. Pelaje negro metálico áspero como alambre. Dientes de acero natural (aleación férrica). Digestión con ácido pH 1.5 que procesa metal caliente + carne. Mandíbulas: 600 PSI (atraviesa placas de 2cm). Caza en manadas de 5-8 ejemplares. Músculos compactos toleran 1.5G de gravedad. Hábitat: túneles de ventilación, fundiciones de El Crisol. Peligrosidad ALTA: ataca humanos si hambriento. Valor: 50 créditos (carne comestible si se cocina a 200°C).",
+          "keywords": [
+            "sabueso",
+            "escoria",
+            "perro",
+            "metal",
+            "cánido",
+            "mutación"
+          ],
+          "relatedEntries": [
+            "lore-zone-001",
+            "lore-ring-002",
+            "lore-species-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01",
+              "chapter-02"
+            ],
+            "keywords": [
+              "sabueso",
+              "perro",
+              "escoria"
+            ]
+          }
+        },
+        {
+          "id": "lore-species-002",
+          "title": "Rata de Tubo (Rattus conducta)",
+          "category": "species",
+          "shortDescription": "Roedor gigante ubicuo en las 5 zonas",
+          "fullDescription": "Rata de Tubo es un roedor con gigantismo insular. Tamaño: 30-50cm, 2kg (normal en Tierra: 20cm, 300g). Pelaje gris metálico aceitoso. Omnívoro extremo: come todo incluyendo óxido y cadáveres. Reproducción: 200 crías/año (plaga constante). Adaptación excepcional: sobrevive en las 5 zonas con temperaturas -10°C a +50°C. Función ecológica: carroñero, vector de 12 enfermedades. Hábitat: conductos, basureros, paredes (omnipresente). Peligrosidad MEDIA: muerde si acorralada, transmite infecciones. Control de población: 500,000 exterminadas/año (inútil, se reproducen más rápido).",
+          "keywords": [
+            "rata",
+            "tubo",
+            "roedor",
+            "plaga",
+            "conductos"
+          ],
+          "relatedEntries": [
+            "lore-species-001",
+            "lore-species-012"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "rata",
+              "roedor",
+              "plaga"
+            ]
+          }
+        },
+        {
+          "id": "lore-species-006",
+          "title": "Sapo de Niebla (Bufo nebulosus)",
+          "category": "species",
+          "shortDescription": "Anfibio gigante bioluminiscente venenoso",
+          "fullDescription": "Sapo de Niebla es un anfibio gigante del Vivero (Zona 2). Tamaño: 40cm, 5kg. Piel verde bioluminiscente que absorbe esporas. Toxina paralizante: alcaloides con dosis letal 2mg. Caza por emboscada: salta desde árboles (caída de 20m). Lengua pegajosa de 80cm de largo. Respiración dual: pulmones + absorción cutánea. Hábitat: ramas de Árboles Esporales en Aros 6-10. Peligrosidad ALTA: venenoso al tacto directo. Valor: 800 créditos (veneno usado como anestésico médico en Zona 3-4).",
+          "keywords": [
+            "sapo",
+            "niebla",
+            "anfibio",
+            "veneno",
+            "vivero",
+            "bioluminiscente"
+          ],
+          "relatedEntries": [
+            "lore-zone-002",
+            "lore-ring-006",
+            "lore-species-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-06"
+            ],
+            "keywords": [
+              "sapo",
+              "niebla",
+              "veneno"
+            ]
+          }
+        },
+        {
+          "id": "lore-species-007",
+          "title": "Caracol de Óxido (Helix ferruginosa)",
+          "category": "species",
+          "shortDescription": "Molusco metálico que produce Miel Metálica",
+          "fullDescription": "Caracol de Óxido es un molusco con caparazón de óxido de hierro estratificado. Tamaño: 15cm de caparazón (crece 1cm/año). Produce Miel Metálica: mucus con 40% hierro coloidal (50ml/día por caracol). Reproducción: 200 huevos/año, ciclo vital 8 años. Hábitat: superficies metálicas húmedas del Vivero. Peligrosidad NULA: totalmente pacífico. Valor: 100 créditos/litro de Miel Metálica. Usos: lubricante industrial de alta calidad, medicamento anti-calcificación experimental, adhesivo orgánico.",
+          "keywords": [
+            "caracol",
+            "óxido",
+            "miel metálica",
+            "molusco",
+            "lubricante"
+          ],
+          "relatedEntries": [
+            "lore-zone-002",
+            "lore-medical-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-07"
+            ],
+            "keywords": [
+              "caracol",
+              "miel",
+              "óxido"
+            ]
+          }
+        },
+        {
+          "id": "lore-species-010",
+          "title": "Árbol Esporal (Arbor sporae gigantea)",
+          "category": "species",
+          "shortDescription": "Hongo gigante de 100m que produce esporas anti-calcificación",
+          "fullDescription": "Árbol Esporal es un hongo compactado gigante que domina el Vivero (Zona 2). Altura: 80-100 metros. Tronco de 5m de diámetro (quitina estratificada). Raíces penetran 50m en metal mediante secreción de HCl (ácido clorhídrico). Produce esporas anti-calcificación: 500 kg/año. 15 especies viven en su corteza (ecosistema propio). Ciclo vital: 200+ años. Reproducción por esporas cada 10 años. Valor: INCALCULABLE (monopolio medicinal del Sínodo Imperial). Función ecológica: base de toda la cadena trófica del Vivero.",
+          "keywords": [
+            "árbol esporal",
+            "hongo",
+            "esporas",
+            "gigante",
+            "vivero",
+            "anti-calcificación"
+          ],
+          "relatedEntries": [
+            "lore-zone-002",
+            "lore-medical-001",
+            "lore-ring-006"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-06",
+              "chapter-07"
+            ],
+            "keywords": [
+              "árbol",
+              "esporal",
+              "esporas"
+            ]
+          }
+        },
+        {
+          "id": "lore-species-012",
+          "title": "Rata Gigante de Chatarra (Rattus giganteus)",
+          "category": "species",
+          "shortDescription": "Roedor mutado de 1m que ataca humanos",
+          "fullDescription": "Rata Gigante de Chatarra es un roedor con gigantismo extremo (Zona Muerta, Aros 18-20). Tamaño: 1m longitud, 15kg (30x normal). Pelaje gris con placas metálicas incrustadas naturalmente. Omnívoro agresivo: ataca humanos débiles o heridos. Resistente a radiación 20x letal. Territorial: ataca en grupos de 10-15. Hábitat: montañas de chatarra, estructuras colapsadas. Peligrosidad MUY ALTA: ha matado 50+ humanos documentados. Valor: 10 créditos (carne dura pero comestible). Considerada plaga de control imposible.",
+          "keywords": [
+            "rata gigante",
+            "chatarra",
+            "zona muerta",
+            "mutación",
+            "radiación"
+          ],
+          "relatedEntries": [
+            "lore-zone-005",
+            "lore-ring-018",
+            "lore-species-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-18"
+            ],
+            "keywords": [
+              "rata",
+              "gigante",
+              "chatarra"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "characters",
+      "name": "Personajes",
+      "icon": "👤",
+      "description": "Protagonistas, antagonistas y personajes secundarios",
+      "entries": [
+        {
+          "id": "lore-character-001",
+          "title": "Zian Vosh - El Cuerpo (La Trinidad)",
+          "category": "characters",
+          "shortDescription": "Fundidor de 25 años con brazo volcánico de magma",
+          "fullDescription": "Zian Vosh es el protagonista principal. 25 años (Year 1000), nacido en Zona 1 (Aro 2). Huérfano de padres (muertos Year 980). Hermano: Nilo Vosh (muerto Year 995, Incidente K-9). Trauma: perdió brazo derecho al intentar salvar a Nilo. Despertó La Frecuencia involuntariamente bajo shock emocional. Brazo Volcánico: mano + antebrazo de basalto negro con grietas de magma a 1200°C. Calcificación: Fase 1 (E01) → Fase 5 fusión (E750). Motivación: llevar cenizas de Nilo \"al cielo\" (Zona 5). Personalidad: estoico, leal, autodestructivo. Final: se fusiona con la Entidad Cósmica en el Horno para sellar la prisión. Último pensamiento: \"Nilo... lo hice. Verás el cielo desde mis ojos.\"",
+          "keywords": [
+            "zian",
+            "vosh",
+            "brazo volcánico",
+            "magma",
+            "frecuencia",
+            "nilo",
+            "protagonista"
+          ],
+          "relatedEntries": [
+            "lore-tech-001",
+            "lore-medical-001",
+            "lore-event-001",
+            "lore-character-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "zian",
+              "brazo",
+              "magma"
+            ]
+          }
+        },
+        {
+          "id": "lore-character-002",
+          "title": "Rox Ferryn - El Alma (La Trinidad)",
+          "category": "characters",
+          "shortDescription": "Piloto mercenaria con pelo rosa y ojo cibernético",
+          "fullDescription": "Rox Ferryn es piloto mercenaria de El Deriva. 26 años (Year 1000), huérfana criada en orfanato militar (Zona 2). Trauma: pilotó nave que transportó módulo K-9 (Year 995), eyectó módulo defectuoso que causó 47 muertes. Características físicas: pelo rosa neón que reacciona al estrés (marcador biológico ilegal), ojo izquierdo cibernético con obturador de cámara (perdió ojo en combate Year 992). Personalidad: pragmática, cínica, leal. Su nave: RZ-44 \"Libélula\" (rojo óxido, motores V8 diésel, ametralladoras calibre .50). Final (E650): sacrificio heroico, estrella El Deriva contra generador Custodio a 5000 km/h para abrir paso a Zian. Último pensamiento: \"Ahora sí sé para qué nací. Para esto.\"",
+          "keywords": [
+            "rox",
+            "ferryn",
+            "piloto",
+            "deriva",
+            "pelo rosa",
+            "ojo cibernético",
+            "sacrificio"
+          ],
+          "relatedEntries": [
+            "lore-character-001",
+            "lore-character-003",
+            "lore-tech-004",
+            "lore-event-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "rox",
+              "piloto",
+              "deriva"
+            ]
+          }
+        },
+        {
+          "id": "lore-character-003",
+          "title": "Kaelen Solis - La Mente (La Trinidad)",
+          "category": "characters",
+          "shortDescription": "Ex-técnico del Sínodo con culpa por K-9",
+          "fullDescription": "Kaelen Solis es ex-técnico del Sínodo Imperial. 24 años (Year 1000), nacido en Zona 3 (Aro 11). Desertor tras muerte de su padre (Comandante Solis, ejecutado Year 998). Trauma: hackeó sistema de navegación del módulo K-9 (48h antes del lanzamiento), sabotaje menor que causó accidentalmente 47 muertes (incluido Nilo Vosh). Oculta responsabilidad por 5 años. Confesión en Saga 2, E400. La Frecuencia: Percepción Expandida (\"ve\" campos electromagnéticos, detecta usuarios a 50m). Calcificación mínima: Fase 0.5 (solo cerebro, 5%). IQ: 145 (genio técnico). Final (E750): descarga consciencia en red de RUSTBONE, sobrevive como IA fragmentada. Última línea: \"Ahora soy el sistema que odiaba.\"",
+          "keywords": [
+            "kaelen",
+            "solis",
+            "técnico",
+            "k-9",
+            "culpa",
+            "confesión",
+            "percepción",
+            "IA"
+          ],
+          "relatedEntries": [
+            "lore-character-001",
+            "lore-character-002",
+            "lore-event-001",
+            "lore-tech-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "kaelen",
+              "solis",
+              "técnico"
+            ]
+          }
+        },
+        {
+          "id": "lore-character-004",
+          "title": "Almirante Viktor Kross - Tirano del Sínodo",
+          "category": "characters",
+          "shortDescription": "Comandante Imperial calcificado Fase 4",
+          "fullDescription": "Almirante Viktor Kross es Comandante Supremo del Sínodo Imperial. 68 años (Year 1000), en el poder 25 años (desde Year 975). Calcificación Fase 4 avanzada (75% del cuerpo): medio cuerpo convertido en metal negro cristalino, silla de ruedas, morfina IV permanente. La Frecuencia: Telekinesis Ferrosa (manipula metal a distancia, alcance 100m, 2 toneladas). Trauma: su hermano murió calcificado (Year 970, Fase 5). Arco narrativo: villano puro (Saga 1) → némesis complejo (Saga 2) → aliado reluctante (Saga 3). Muerte (E650): activa Protocolo Omega (bomba nuclear), mata 2.3 millones (incluido él), salva 35.7 millones. Últimas palabras: \"Que mi muerte compre su libertad. Que mi tiranía sea recordada como el precio de su supervivencia.\"",
+          "keywords": [
+            "kross",
+            "almirante",
+            "sínodo",
+            "tirano",
+            "protocolo omega",
+            "telekinesis",
+            "calcificación"
+          ],
+          "relatedEntries": [
+            "lore-faction-002",
+            "lore-tech-005",
+            "lore-event-002",
+            "lore-medical-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01",
+              "chapter-12"
+            ],
+            "keywords": [
+              "kross",
+              "almirante",
+              "sínodo"
+            ]
+          }
+        },
+        {
+          "id": "lore-character-005",
+          "title": "Gorgos - El Acreedor",
+          "category": "characters",
+          "shortDescription": "Jefe criminal con mandíbula hidráulica de acero",
+          "fullDescription": "Gorgos es jefe criminal de Zona 1 (Aro 2, Sector Delta). 52 años (Year 1000), 2.02m altura, 135kg. Mandíbula hidráulica: mitad inferior del rostro reemplazada por prensa de acero (quemadura Year 975), fuerza de mordida 2000 PSI, chirrido metálico al hablar (CLANK-HISS). Operación criminal: protección forzada, préstamos usurarios (interés 20% mensual), tráfico de chatarra. Personal: 40 matones. Relación con Zian: acreedor de 50,000 créditos (reconstrucción post-K-9), amenaza constante. Destino (E87): Zian lo confronta, pelea brutal, Zian funde su mandíbula con Frecuencia, muerte por asfixia. Estado final: cadáver encontrado 3 días después (nadie lo extraña).",
+          "keywords": [
+            "gorgos",
+            "acreedor",
+            "mandíbula",
+            "criminal",
+            "mafia",
+            "deuda"
+          ],
+          "relatedEntries": [
+            "lore-character-001",
+            "lore-zone-001",
+            "lore-faction-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01"
+            ],
+            "keywords": [
+              "gorgos",
+              "mandíbula",
+              "acreedor"
+            ]
+          }
+        },
+        {
+          "id": "lore-character-006",
+          "title": "Tovar el Esporal - Señor del Vivero",
+          "category": "characters",
+          "shortDescription": "Señor de guerra agrícola del Aro 7",
+          "fullDescription": "Tovar el Esporal domina la agricultura fungal del Vivero (Aro 7). Edad: 45 años (Year 1000). Controla cultivos masivos de hongos comestibles que alimentan a Rustbone. Torres de observación construidas sobre Árboles Esporales de 100m. Milicia privada patrulla constantemente. Sistema de irrigación con condensación de niebla. Mercado fungal: trueque de esporas medicinales. Personalidad: pragmático, proteccionista, sospecha del Sínodo. Relación con la Trinidad: aliado temporal (E180-E240), intercambia esporas anti-calcificación por protección contra Guardia Imperial. Destino: sobrevive las 3 Sagas, se convierte en Ministro de Agricultura post-liberación.",
+          "keywords": [
+            "tovar",
+            "esporal",
+            "vivero",
+            "hongos",
+            "agricultura",
+            "señor guerra"
+          ],
+          "relatedEntries": [
+            "lore-zone-002",
+            "lore-ring-007",
+            "lore-species-010",
+            "lore-faction-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-07"
+            ],
+            "keywords": [
+              "tovar",
+              "esporal",
+              "hongos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "factions",
+      "name": "Facciones",
+      "icon": "⚔️",
+      "description": "Organizaciones, gobiernos y grupos de poder",
+      "entries": [
+        {
+          "id": "lore-faction-001",
+          "title": "Los Custodios (Cónclave Galáctico)",
+          "category": "factions",
+          "shortDescription": "Raza alienígena que construyó las 30 Esferas-Prisión",
+          "fullDescription": "Los Custodios son una raza alienígena de Nivel Tecnológico 5 que construyó RUSTBONE y otras 29 Esferas-Prisión. Crearon las prisiones hace 1,000 años (Year 0) para encerrar a la Humanidad tras 800 años de expansión depredadora (47 biosferas destruidas, 15,000+ especies extintas). Desaparecieron hace siglos pero dejaron sistemas autónomos funcionando. Tecnología: Generadores de gravedad artificial, Úteros Artificiales (450 unidades), Los 1,024 Durmientes (guardianes en stasis), materiales indestructibles. Motivación: Veredicto de prisión 1,000 años como castigo civilizatorio. Retornan en Saga 3 (E700) al detectar que la Entidad está despertando.",
+          "keywords": [
+            "custodios",
+            "alienígenas",
+            "prisión",
+            "tecnología",
+            "cónclave",
+            "nivel 5"
+          ],
+          "relatedEntries": [
+            "lore-physics-001",
+            "lore-entity-001",
+            "lore-entity-002",
+            "lore-tech-006"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01",
+              "chapter-17"
+            ],
+            "keywords": [
+              "custodios",
+              "alienígenas",
+              "guardianes"
+            ]
+          }
+        },
+        {
+          "id": "lore-faction-002",
+          "title": "El Sínodo Imperial",
+          "category": "factions",
+          "shortDescription": "Gobierno tiránico comandado por Almirante Kross",
+          "fullDescription": "El Sínodo Imperial es la estructura de poder que controla RUSTBONE desde Year 800 (200 años). Comandado por Almirante Viktor Kross (25 años en el poder). Mantiene orden mediante la Guardia Industrial (50,000 soldados) y extorsión sistemática. Controla: recursos, ventilación, acceso entre Aros, monopolio de esporas anti-calcificación (500 créditos/dosis). Caza usuarios de La Frecuencia para experimentación en Laboratorio K-9 (Aro 15). Sede: Aro 12 (Sala del Consejo Imperial, 700 asientos). Propaganda: \"El Orden Preserva la Vida\". Colapsa en Saga 3 (E620) tras rebelión masiva liderada por la Trinidad.",
+          "keywords": [
+            "sínodo",
+            "imperial",
+            "gobierno",
+            "kross",
+            "tiranía",
+            "guardia"
+          ],
+          "relatedEntries": [
+            "lore-character-004",
+            "lore-zone-003",
+            "lore-ring-012",
+            "lore-faction-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01",
+              "chapter-12"
+            ],
+            "keywords": [
+              "sínodo",
+              "imperial",
+              "gobierno"
+            ]
+          }
+        },
+        {
+          "id": "lore-faction-003",
+          "title": "La Rebelión (Movimiento de Liberación)",
+          "category": "factions",
+          "shortDescription": "Movimiento revolucionario liderado por la Trinidad",
+          "fullDescription": "La Rebelión es el movimiento de liberación que emerge en Saga 1-2. Líderes: La Trinidad (Zian, Rox, Kaelen). Inicio: E120 (levantamiento espontáneo en Aro 2 tras ejecución pública). Crecimiento: E120-E500 (de 200 obreros a 2.5 millones). Aliados: Tovar el Esporal (Zona 2), facciones criminales (Zona 1), desertores militares. Métodos: sabotaje de infraestructura, liberación de prisioneros, propaganda anti-Sínodo. Batalla decisiva: E620 (asalto al Aro 12, captura de Kross). Victoria: E640 (colapso del Sínodo Imperial). Nuevo gobierno: Consejo de los 20 Aros (democracia representativa).",
+          "keywords": [
+            "rebelión",
+            "liberación",
+            "trinidad",
+            "revolución",
+            "movimiento"
+          ],
+          "relatedEntries": [
+            "lore-character-001",
+            "lore-character-002",
+            "lore-character-003",
+            "lore-faction-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-05",
+              "chapter-10"
+            ],
+            "keywords": [
+              "rebelión",
+              "liberación",
+              "revolución"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "name": "Eventos",
+      "icon": "📅",
+      "description": "Sucesos históricos y momentos clave de la narrativa",
+      "entries": [
+        {
+          "id": "lore-event-001",
+          "title": "Incidente K-9 (Year 995)",
+          "category": "events",
+          "shortDescription": "47 muertes por sabotaje accidental de navegación",
+          "fullDescription": "Incidente K-9 ocurrió Year 995, Mes 3, Día 15, 07:42 AM en Taller Vosh (Aro 2). Módulo de transporte K-9 se estrelló tras sabotaje de navegación. Responsables: Kaelen Solis (sabotaje 48h antes, intención: retrasar transporte de prisioneros), Rox Ferryn (piloto que eyectó módulo defectuoso). Resultado: 47 muertes (incluido Nilo Vosh, hermano de Zian, aplastado por viga). Zian perdió brazo derecho al intentar salvarlo. Despertó La Frecuencia involuntariamente bajo shock. Consecuencias: TEPT severo (Zian), culpa aplastante (Kaelen, confesión en E400), trauma moral (Rox). Legado: evento catalizador de toda la narrativa, une destinos de la Trinidad.",
+          "keywords": [
+            "k-9",
+            "incidente",
+            "nilo",
+            "accidente",
+            "sabotaje",
+            "kaelen",
+            "rox",
+            "zian"
+          ],
+          "relatedEntries": [
+            "lore-character-001",
+            "lore-character-002",
+            "lore-character-003",
+            "lore-tech-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01",
+              "chapter-05"
+            ],
+            "keywords": [
+              "k-9",
+              "incidente",
+              "nilo"
+            ]
+          }
+        },
+        {
+          "id": "lore-event-002",
+          "title": "Protocolo Omega - Detonación Nuclear (E650)",
+          "category": "events",
+          "shortDescription": "Kross sacrifica 2.3 millones para retardar invasión Custodia",
+          "fullDescription": "Protocolo Omega es activado por Almirante Kross en Episodio 650 (Saga 3, Temporada 13). Bomba nuclear de 50 megatones instalada en Aro 16 (Laboratorios). Objetivo: destruir flota invasora Custodia y retardar avance por 2 horas. Costo: 2.3 millones de muertes humanas (incluido Kross). Beneficio: permite que Zian llegue al Horno antes de colapso total. Detonación: E650, 15:47 PM. Resultado: destruye Aros 14-16 completamente, vaporiza 300 naves Custodias. Legado: acto de redención de Kross (tirano → mártir). Últimas palabras: \"Que mi muerte compre su libertad.\"",
+          "keywords": [
+            "protocolo omega",
+            "bomba",
+            "nuclear",
+            "kross",
+            "sacrificio",
+            "custodios"
+          ],
+          "relatedEntries": [
+            "lore-character-004",
+            "lore-tech-005",
+            "lore-faction-001",
+            "lore-event-003"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-16"
+            ],
+            "keywords": [
+              "protocolo",
+              "omega",
+              "bomba"
+            ]
+          }
+        },
+        {
+          "id": "lore-event-003",
+          "title": "Trinity Ending - Fusión con la Entidad (E750)",
+          "category": "events",
+          "shortDescription": "Final ambiguo: Zian se fusiona, Kaelen IA, Rox sacrificada",
+          "fullDescription": "Trinity Ending ocurre en Episodio 750 (Saga 3, Temporada 15, final). Tres destinos paralelos: (1) ROX FERRYN (E650): Sacrificio heroico, estrella El Deriva contra generador Custodio, muerte instantánea, abre paso para Zian. (2) KAELEN SOLIS (E750): Descarga consciencia en red de RUSTBONE, sobrevive como IA fragmentada, controla defensas. (3) ZIAN VOSH (E750): Entra en el Horno (Fase 5 al 98%), la Entidad ofrece fusión, acepta, consciencia se expande, sella la Esfera desde dentro. Final ambiguo: ¿Libertad o sentencia de muerte? ¿Zian controla o es controlado? Legado: 38 millones superviven, Zona 1 es liberada.",
+          "keywords": [
+            "trinity ending",
+            "fusión",
+            "final",
+            "zian",
+            "kaelen",
+            "rox",
+            "entidad"
+          ],
+          "relatedEntries": [
+            "lore-character-001",
+            "lore-character-002",
+            "lore-character-003",
+            "lore-entity-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-18"
+            ],
+            "keywords": [
+              "trinity",
+              "final",
+              "fusión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "entities",
+      "name": "Entidades",
+      "icon": "👁️",
+      "description": "Seres cósmicos y alienígenas",
+      "entries": [
+        {
+          "id": "lore-entity-001",
+          "title": "La Entidad Cósmica (Fragmento Aprisionado)",
+          "category": "entities",
+          "shortDescription": "Ser extradimensional aprisionado en el Horno",
+          "fullDescription": "La Entidad Cósmica es un fragmento de consciencia extradimensional aprisionado en el Horno (núcleo de RUSTBONE). Captura: Year -50 por los Custodios mediante Resonador Cuántico. Fragmento: ~0.001% de su ser total (existe en 7 dimensiones simultáneas). Alimentación: absorbe bioelectricidad alterada (materia orgánica calcificada) de usuarios de La Frecuencia. Nivel de despertar: 10% (Year 0) → 95% (Year 1007, pre-fusión). Comunicación: habla con Zian en E748. Ambigüedad moral: ¿Es malvada (se alimenta de sufrimiento) o víctima (aprisionada sin juicio)? Final: se fusiona con Zian (E750), sella la prisión desde dentro.",
+          "keywords": [
+            "entidad",
+            "cósmica",
+            "horno",
+            "extradimensional",
+            "custodios",
+            "fusión"
+          ],
+          "relatedEntries": [
+            "lore-physics-002",
+            "lore-tech-001",
+            "lore-character-001",
+            "lore-faction-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-01",
+              "chapter-17",
+              "chapter-18"
+            ],
+            "keywords": [
+              "entidad",
+              "cósmica",
+              "horno"
+            ]
+          }
+        },
+        {
+          "id": "lore-entity-002",
+          "title": "Los 1,024 Durmientes",
+          "category": "entities",
+          "shortDescription": "Gigantes de 3m fusionados con el casco exterior",
+          "fullDescription": "Los 1,024 Durmientes son guardianes alienígenas en stasis distribuidos en el Aro 20 (casco exterior de RUSTBONE). Cantidad: 1,024 (2^10, patrón tecnológico Custodio). Altura: 3 metros. Peso: ~500 kg (biomasa + cerámica). Composición: fusión biomecánica de cerámica negra y cristal vivo. Rostro: placas lisas sin rasgos (reflejan luz como espejos). Interior: vacío negro absoluto (sin órganos). Función: Guardianes de emergencia, activación solo si Entidad alcanza 90% despertar. Estado: Stasis total desde Year 0 (nunca activados en 1,000 años). Poder: Desconocido (nunca se ha visto en acción). Luz de stasis: azul pálido en pecho, 1 latido cada 10 segundos.",
+          "keywords": [
+            "durmientes",
+            "1024",
+            "guardianes",
+            "custodios",
+            "stasis",
+            "aro 20"
+          ],
+          "relatedEntries": [
+            "lore-ring-020",
+            "lore-zone-005",
+            "lore-faction-001",
+            "lore-entity-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-17",
+              "chapter-18"
+            ],
+            "keywords": [
+              "durmientes",
+              "guardianes",
+              "muro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "Historia",
+      "icon": "📜",
+      "description": "Cronología y eventos históricos de Rustbone",
+      "entries": [
+        {
+          "id": "lore-history-001",
+          "title": "La Expansión Depredadora (Year -1200 a Year -200)",
+          "category": "history",
+          "shortDescription": "Humanidad como civilización Tipo II devoradora de mundos",
+          "fullDescription": "La Expansión Depredadora fue una era de 1,000 años (Year -1200 a Year -200) donde la Humanidad alcanzó Civilización Tipo II. Tecnología: viajes FTL (más rápido que luz), terraformación planetaria, extracción de energía estelar. Crimen: destrucción de 47 biosferas habitadas, extinción de 15,000+ especies, genocidio de 8 civilizaciones pre-industriales. Motivación: recursos ilimitados, expansión exponencial, arrogancia civilizatoria. Veredicto Custodio (Year -50): prisión 1,000 años como castigo. Construcción de 30 Esferas-Prisión. RUSTBONE es Esfera 17 de 30. Población encarcelada: 500 millones (Year 0). Supervivientes: 38 millones (Year 1000). Mortalidad: 92% en 1,000 años.",
+          "keywords": [
+            "expansión",
+            "depredadora",
+            "tipo II",
+            "genocidio",
+            "47 mundos",
+            "veredicto"
+          ],
+          "relatedEntries": [
+            "lore-faction-001",
+            "lore-physics-001",
+            "lore-entity-001"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-15",
+              "chapter-17"
+            ],
+            "keywords": [
+              "expansión",
+              "humanidad",
+              "genocidio"
+            ]
+          }
+        },
+        {
+          "id": "lore-history-002",
+          "title": "Year 0 - Encarcelamiento",
+          "category": "history",
+          "shortDescription": "Inicio de la prisión cósmica hace 1,000 años",
+          "fullDescription": "Year 0 marca el inicio del encarcelamiento hace 1,000 años. Los Custodios capturan 500 millones de humanos y los distribuyen en 30 Esferas-Prisión. RUSTBONE (Esfera 17) recibe su población. Los 1,024 Durmientes son instalados en el Aro 20. El Horno es activado con la Entidad Cósmica como generador. Primeros años: caos, violencia, colapso social. Mortalidad inicial: 100 millones en primeros 50 años (20%). Adaptación biológica comienza: gravedad diferencial causa especiación. Gobierno: ausente (anarquía) hasta Year 200. Year 200-800: múltiples regímenes dictatoriales. Year 800: Fundación del Sínodo Imperial (régimen actual).",
+          "keywords": [
+            "year 0",
+            "encarcelamiento",
+            "prisión",
+            "inicio",
+            "custodios",
+            "500 millones"
+          ],
+          "relatedEntries": [
+            "lore-history-001",
+            "lore-physics-001",
+            "lore-faction-002"
+          ],
+          "unlockConditions": {
+            "chapterIds": [
+              "chapter-15",
+              "chapter-17"
+            ],
+            "keywords": [
+              "year 0",
+              "encarcelamiento",
+              "inicio"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "totalEntries": 61,
+    "totalCategories": 10
+  }
+}
