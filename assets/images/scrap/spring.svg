@@ -1,0 +1,57 @@
+<!-- Spring - Resorte de metal -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32">
+  <!-- Spring coils -->
+  <g fill="none" stroke="#888" stroke-width="2.5" stroke-linecap="round">
+    <path d="M 26 12 Q 28 14, 30 16"/>
+    <path d="M 30 16 Q 32 18, 34 16"/>
+    <path d="M 34 16 Q 36 14, 38 16"/>
+
+    <path d="M 24 18 Q 26 20, 28 22"/>
+    <path d="M 28 22 Q 30 24, 32 22"/>
+    <path d="M 32 22 Q 34 20, 36 22"/>
+    <path d="M 36 22 Q 38 24, 40 22"/>
+
+    <path d="M 22 24 Q 24 26, 26 28"/>
+    <path d="M 26 28 Q 28 30, 30 28"/>
+    <path d="M 30 28 Q 32 26, 34 28"/>
+    <path d="M 34 28 Q 36 30, 38 28"/>
+    <path d="M 38 28 Q 40 26, 42 28"/>
+
+    <path d="M 22 30 Q 24 32, 26 34"/>
+    <path d="M 26 34 Q 28 36, 30 34"/>
+    <path d="M 30 34 Q 32 32, 34 34"/>
+    <path d="M 34 34 Q 36 36, 38 34"/>
+    <path d="M 38 34 Q 40 32, 42 34"/>
+
+    <path d="M 24 36 Q 26 38, 28 40"/>
+    <path d="M 28 40 Q 30 42, 32 40"/>
+    <path d="M 32 40 Q 34 38, 36 40"/>
+    <path d="M 36 40 Q 38 42, 40 40"/>
+
+    <path d="M 26 42 Q 28 44, 30 46"/>
+    <path d="M 30 46 Q 32 48, 34 46"/>
+    <path d="M 34 46 Q 36 44, 38 46"/>
+
+    <path d="M 28 48 Q 30 50, 32 52"/>
+    <path d="M 32 52 Q 34 50, 36 52"/>
+  </g>
+
+  <!-- Highlight line (metallic shine) -->
+  <g fill="none" stroke="#BBB" stroke-width="1" stroke-linecap="round" opacity="0.6">
+    <path d="M 27 13 Q 29 15, 31 17"/>
+    <path d="M 31 17 Q 33 19, 35 17"/>
+    <path d="M 25 19 Q 27 21, 29 23"/>
+    <path d="M 29 23 Q 31 25, 33 23"/>
+    <path d="M 23 25 Q 25 27, 27 29"/>
+    <path d="M 27 29 Q 29 31, 31 29"/>
+  </g>
+
+  <!-- Rust spots -->
+  <circle cx="30" cy="24" r="1.5" fill="#8B4513" opacity="0.6"/>
+  <circle cx="35" cy="32" r="1.2" fill="#A0522D" opacity="0.5"/>
+  <circle cx="28" cy="40" r="1.8" fill="#6B4423" opacity="0.7"/>
+
+  <!-- Bent/damaged section -->
+  <path d="M 34 38 Q 38 36, 40 38"
+        stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

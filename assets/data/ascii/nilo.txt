@@ -1,0 +1,41 @@
+    ________   ___  ___       ________
+   |\   ___  \|\  \|\  \     |\   __  \
+   \ \  \\ \  \ \  \ \  \    \ \  \|\  \
+    \ \  \\ \  \ \  \ \  \    \ \  \\\  \
+     \ \  \\ \  \ \  \ \  \____\ \  \\\  \
+      \ \__\\ \__\ \__\ \_______\ \_______\
+       \|__| \|__|\|__|\|_______|\|_______|
+
+════════════════════════════════════════════════════════════════
+    FALLECIDO | ZONA-1 | ID: Z1-FND-198 | ✝
+════════════════════════════════════════════════════════════════
+
+    ESTADO: [REGISTRO CERRADO]
+
+    PERFIL:
+    └─ EDAD AL FALLECIMIENTO: 31 años terrestres
+    └─ RANGO: Operador de Fundición Senior
+    └─ AÑOS DE SERVICIO: 12
+    └─ CAUSA: Incidente K9 (Fallo de sistema de enfriamiento)
+
+    ESPECIALIZACIÓN: Mantenimiento de hornos clase-3
+
+    FAMILIA:
+    └─ HERMANO: Magma (Z1-FND-247)
+
+    ÚLTIMA VOLUNTAD:
+    "Que mis cenizas lleguen al cielo, donde el óxido no existe"
+
+    ════════════════════════════════════════════════════════
+
+          [  CENIZAS PENDIENTES DE DISPERSIÓN  ]
+
+          Protocolo 7-C: Dispersión atmosférica autorizada
+          Responsable: Magma (hermano)
+          Estado: EN PROCESO
+
+    ════════════════════════════════════════════════════════
+
+    "Rust never sleeps, but we do." - Nilo, última transmisión
+
+════════════════════════════════════════════════════════════════

@@ -1,0 +1,30 @@
+<!-- Wire Coil - Bobina de cable -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32">
+  <!-- Outer coil -->
+  <ellipse cx="32" cy="32" rx="20" ry="18"
+           fill="none" stroke="#FF8C00" stroke-width="3" opacity="0.8"/>
+  <ellipse cx="32" cy="32" rx="16" ry="14"
+           fill="none" stroke="#FFA500" stroke-width="2.5" opacity="0.7"/>
+  <ellipse cx="32" cy="32" rx="12" ry="10"
+           fill="none" stroke="#FFB84D" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="32" cy="32" rx="8" ry="6"
+           fill="none" stroke="#FFC966" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Inner core -->
+  <ellipse cx="32" cy="32" rx="5" ry="3"
+           fill="#4A4A4A" stroke="#666" stroke-width="1"/>
+
+  <!-- Wire ends -->
+  <path d="M 12 32 Q 8 28, 6 24"
+        stroke="#FF8C00" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 52 32 Q 56 36, 58 40"
+        stroke="#FF8C00" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Spark effect -->
+  <circle cx="6" cy="24" r="2" fill="#FFE600" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="58" cy="40" r="2" fill="#FFE600" opacity="0.6">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,0 +1,35 @@
+    ________  ________     ___    ___
+   |\   __  \|\   __  \   |\  \  /  /|
+   \ \  \|\  \ \  \|\  \  \ \  \/  / /
+    \ \   _  _\ \  \\\  \  \ \    / /
+     \ \  \\  \\ \  \\\  \  /     \/
+      \ \__\\ _\\ \_______\/  /\   \
+       \|__|\|__|\|_______/__/ /\ __\
+                          |__|/ \|__|
+
+════════════════════════════════════════════════════════════════
+    TÉCNICO: ZONA-2 | CLEARANCE: LEVEL 2 | ID: Z2-TEC-156
+════════════════════════════════════════════════════════════════
+
+    ESTADO: ██████████████████░░░░ 90% OPERATIVO
+
+    MODIFICACIONES BIOMECÁNICAS:
+    └─ OJO DERECHO: Implante de visión térmica
+    └─ RANGO DE VISIÓN: 2.5-15 μm (infrarrojo)
+    └─ MODO ALTO CONTRASTE: Disponible
+
+    PERFIL:
+    └─ EDAD: 28 años terrestres
+    └─ ESPECIALIZACIÓN: Detección de radiación
+    └─ AÑOS DE SERVICIO: 7
+
+    CLEARANCE ZONES:
+    [✓] Zona 1 - El Crisol
+    [✓] Zona 2 - Detectores
+    [✗] Zona 3 - Núcleo
+
+    PERSONALIDAD: Pragmática, directa, leal
+
+    RELACIÓN: Amiga cercana de Magma
+
+════════════════════════════════════════════════════════════════

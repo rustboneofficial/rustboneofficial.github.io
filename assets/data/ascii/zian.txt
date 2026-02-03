@@ -1,0 +1,30 @@
+    ________  ___  ________  ________
+   |\_____  \|\  \|\   __  \|\   ___  \
+    \|___/  /\ \  \ \  \|\  \ \  \\ \  \
+        /  / /\ \  \ \   __  \ \  \\ \  \
+       /  /_/__\ \  \ \  \ \  \ \  \\ \  \
+      |\________\ \__\ \__\ \__\ \__\\ \__\
+       \|_______|\|__|\|__|\|__|\|__| \|__|
+
+════════════════════════════════════════════════════════════════
+    SUPERVISOR: ZONA-1 | CLEARANCE: LEVEL 3 | ID: Z1-SUP-089
+════════════════════════════════════════════════════════════════
+
+    ESTADO: ██████████████████████ 100% OPERATIVO
+
+    PERFIL:
+    └─ EDAD: 42 años terrestres
+    └─ RANGO: Supervisor de Fundición
+    └─ AÑOS DE SERVICIO: 18
+    └─ INCIDENTES: 0 (Récord de seguridad)
+
+    CLEARANCE ZONES:
+    [✓] Zona 1 - El Crisol
+    [✓] Zona 2 - Detectores
+    [✗] Zona 3 - Núcleo
+
+    ESPECIALIZACIÓN: Gestión de personal, protocolos de seguridad
+
+    NOTAS: Mentor de Magma. Conoce el incidente K9.
+
+════════════════════════════════════════════════════════════════

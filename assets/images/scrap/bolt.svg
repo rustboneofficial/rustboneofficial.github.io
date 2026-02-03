@@ -1,0 +1,30 @@
+<!-- Rusty Bolt - Tornillo oxidado -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32">
+  <defs>
+    <filter id="rust">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Bolt head (hexagonal) -->
+  <polygon points="32,12 42,17 42,27 32,32 22,27 22,17"
+           fill="#8B4513" stroke="#654321" stroke-width="1.5"/>
+  <polygon points="32,14 40,18 40,26 32,30 24,26 24,18"
+           fill="#A0522D" opacity="0.7"/>
+
+  <!-- Bolt thread -->
+  <rect x="28" y="30" width="8" height="22"
+        fill="#6B4423" stroke="#4A2F1A" stroke-width="1"/>
+  <line x1="28" y1="34" x2="36" y2="34" stroke="#4A2F1A" stroke-width="0.5"/>
+  <line x1="28" y1="38" x2="36" y2="38" stroke="#4A2F1A" stroke-width="0.5"/>
+  <line x1="28" y1="42" x2="36" y2="42" stroke="#4A2F1A" stroke-width="0.5"/>
+  <line x1="28" y1="46" x2="36" y2="46" stroke="#4A2F1A" stroke-width="0.5"/>
+  <line x1="28" y1="50" x2="36" y2="50" stroke="#4A2F1A" stroke-width="0.5"/>
+
+  <!-- Rust texture overlay -->
+  <polygon points="32,12 42,17 42,27 32,32 22,27 22,17"
+           fill="url(#rust)" opacity="0.3"/>
+  <rect x="28" y="30" width="8" height="22"
+        fill="url(#rust)" opacity="0.4"/>
+</svg>
